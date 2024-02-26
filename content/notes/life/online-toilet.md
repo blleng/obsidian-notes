@@ -1,16 +1,14 @@
 ---
 info: Get a sense of achievement by cleaning your toilet online
 date: 2023-08-28T23:38
-update: 2024-02-2760T4316333012T177:28
+update: 2024-02-27600:0:4T564316333012T177:28
 tags:
   - note/2023/08
   - note/digital
 id: note20230828233847
 dg-publish: true
 noteIcon: 1
-link: online-toilet
-aliases:
-  - Clean-your-toilet-online,-get-the-achievements-in-feeling
+title: Clean your toilet online, get the achievements in feeling
 ---
 
 > [!quote] 刷马桶是个难题，不刷马桶导致更大难题。

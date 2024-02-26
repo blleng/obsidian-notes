@@ -2,13 +2,10 @@
 noteIcon: 5
 description: Moontains - My digital garden
 date: 2023-08-26T14:49
-update: 2024-02-27T04:18
+update: 2024-02-27T05:33
 dg-publish: true
-link: index
-title:
-  - 山月记
+title: 山月记
 ---
-
 > [!quote] 我仍只是一只，追逐天涯的孤雁
 > 天空比你的双瞳更为茫然[^1]
 
@@ -18,11 +15,11 @@ This site serves as a digital garden containing musings from me and treasures fr
 It's [open source](https://github.com/blleng/obsidian-notes) for sure.
 
 ## Navigation
-- [[navigation/Readings Collection.md|Readings Collection]]
-- [[navigation/Projects Collection.md|Projects Collection]]
-- [[navigation/Notes Collection.md|Notes Collection]]
-- [[navigation/Flashes Collection.md|Flashes Collection]]
-- [[navigation/Writings Collection.md|Writings Collection]]
+- [[navigation/readings.md|Readings Collection]]
+- [[navigation/projects.md|Projects Collection]]
+- [[navigation/notes.md|Notes Collection]]
+- [[navigation/flashes.md|Flashes Collection]]
+- [[navigation/writings.md|Writings Collection]]
 
 ## Guidelines
 Principally, my garden is divided into 6 parts including **Flashes**, **Notes**, **Readings**, **Open Source**, **Writings**, **Wiki**.
