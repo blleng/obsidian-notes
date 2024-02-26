@@ -15,7 +15,7 @@ title:
 **Moontain**, a compound word constructed with "moon" and "mountain". I use it to express a prudent imagination of a place far from the noise and bustle.
 
 This site serves as a digital garden containing musings from me and treasures from others.
-It's [open source](https://github.com/blleng/blog) for sure.
+It's [open source](https://github.com/blleng/obsidian-notes) for sure.
 
 ## Navigation
 - [[navigation/Readings Collection.md|Readings Collection]]
