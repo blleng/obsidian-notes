@@ -5,8 +5,11 @@ on:
     branches: [notes,main]
   pull_request:
     branches: [notes,main]
-    types: auto_merge_enabled
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 env:
   TZ: Asia/Shanghai
