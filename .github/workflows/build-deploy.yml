@@ -1,0 +1,48 @@
+name: Quartz build&deploy
+
+on:
+  push:
+    branches: [notes,main]
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Build-deploy:
+    name: Check notes and build&deploy
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: Checkout codes
+      uses: actions/checkout@v2
+      with:
+        ref: 'main'
+
+    - name: Setup node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.19.0'
+
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+    - name: Install dependencies
+      run: |
+        npm install
+        git clone -b notes https://github.com/blleng/obsidian-notes/ content
+    
+    - name: Build site
+      run: |
+        npx quartz build
+        echo "freezing.cool" > ./public/CNAME
+
+    - name: Deploy to gh-page
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        git-config-name: blleng
+        git-config-email: l0bl@outlook.com
+        branch: gh-page # The branch the action should deploy to.
+        folder: public # The folder the action should deploy.
