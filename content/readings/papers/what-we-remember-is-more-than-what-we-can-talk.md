@@ -1,5 +1,4 @@
 ---
-link: what-we-remember-is-more-than-what-we-can-talk
 tags:
   - paper/unviewed/humanities/philosophy/epistemology
 dg-publish: true
@@ -8,8 +7,8 @@ Journal: 社会科学报
 Year: 2023
 DOI: Not supported.
 date: 2023-08-30T21:49
-update: 2024-02-27T6433407:73T022202:18
-aliases: 我们记得的，多于我们能说的
+update: 2024-02-27T05:25
+title: 我们记得的，多于我们能说的
 ---
 
 我们记得的，多于我们能说的
@@ -47,7 +46,7 @@ aliases: 我们记得的，多于我们能说的
 “断言”和“知道”一般在知识论里被认为是一种认知上较强的状态（区别于“认为”“猜测”“半信半疑”等较弱的认知状态），威廉姆森的这种观点被称为“强信念观”（the strong conception of belief）。
 
 ### 对强信念观的反驳
-霍桑、罗斯柴尔德和斯贝克特（John Hawthorne, Daniel Rothschild，and Levi Spectre）发表[[Belief is weak|Belief is weak]]一文：
+霍桑、罗斯柴尔德和斯贝克特（John Hawthorne, Daniel Rothschild，and Levi Spectre）发表 _[[belief-is-weak|Belief is weak]]_ 一文：
 信念是一种比断言更弱的认知状态，这意味着，有时哪怕我们尚不该断言p，我们也可以合理地相信p。
 
 “相信”本身是一种更弱的认知状态，并不强调认知上的确定性，例：
@@ -56,7 +55,7 @@ aliases: 我们记得的，多于我们能说的
 
 ### 记忆信念是弱的
 作者曾撰文指出：
-[[Memory belief is weak|记忆信念比断言来得更弱]]，我们可以理性地相信某些我们记得的事，尽管有时我们不应直接断言事实就是如此。
+[[memory-belief-is-weak|记忆信念比断言来得更弱]]，我们可以理性地相信某些我们记得的事，尽管有时我们不应直接断言事实就是如此。
 
 考记忆信念在我们的日常信念中占比大，如果记忆信念是弱的，那么或许更一般意义上的信念本身也是弱的。
 
