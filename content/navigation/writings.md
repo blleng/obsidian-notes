@@ -3,10 +3,8 @@ index: "5"
 dg-publish: true
 noteIcon: 5
 date: 2024-02-17T21:20
-update: 2024-02-27T043216:3508
-link: writings
-aliases:
-  - Writings-Collection
+update: 2024-02-27T05:32
+title: Writings Collection
 ---
-- [[writings/动筷子时， 能生吞的才叫诗.md|动筷子时， 能生吞的才叫诗]]: 2024-02-15
+- [[writings/poems-are-what-you-can-swallow.md|动筷子时， 能生吞的才叫诗]]: 2024-02-15
 
