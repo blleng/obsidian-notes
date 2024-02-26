@@ -7,9 +7,10 @@ Journal: Ratio
 Year: 2023
 DOI: 10.1111/rati.12381
 date: 2023-09-01T14:15
-update: 2024-02-27T0431:3904
+update: 2024-02-27T04321:3904
 link: memory-belief-is-weak
-aliases: Memory belief is weak
+aliases:
+  - Memory-belief-is-weak
 ---
 
 Memory belief is weak
