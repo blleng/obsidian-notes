@@ -8,10 +8,8 @@ github: https://github.com/blleng/hexo-theme-lx/
 document: https://lx.js.org
 index: "1"
 date: 2023-08-27T00:38
-update: 2024-02-27T0644535350::3023T2617:18
-link: hexo-theme-lx
-aliases:
-  - A-theme-designed-for-Hexo---Hexo-Theme-Lx
+update: 2024-02-27T05:27
+title: A theme designed for Hexo - Hexo-Theme-Lx
 ---
 
 # Hexo-Theme-Lx
@@ -19,7 +17,7 @@ aliases:
 
 >[!info] Information
 >Document: [English](https://lx.js.org/200318/), [中文](https://lx.js.org/190607/)  
->GitHub Repo：https://github.com/blleng/hexo-theme-lx
+>GitHub Repo：https://github.com/blleng/hexo-theme-lx  
 >Any problem, suggestion or bug report:  https://github.com/blleng/hexo-theme-lx/issues
 
 ## Usage
