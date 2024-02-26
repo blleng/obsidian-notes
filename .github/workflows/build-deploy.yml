@@ -3,6 +3,10 @@ name: Quartz build&deploy
 on:
   push:
     branches: [notes,main]
+  pull_request:
+    branches: [notes,main]
+    types: auto_merge_enabled
+
 
 env:
   TZ: Asia/Shanghai
