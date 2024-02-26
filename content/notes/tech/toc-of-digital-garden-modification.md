@@ -1,14 +1,15 @@
 ---
 link: toc-of-digital-garden-modification
 date: 2023-08-28T00:36
-update: 2024-02-27T640T:11:292582270:43
+update: 2024-02-27T0640T:11:292582270:43
 tags:
   - note/2023/08
   - note/frontend
 id: note20230828003602
 dg-publish: true
 noteIcon: 3
-aliases: Modification of table of contents of digital garden
+aliases:
+  - Modification-of-table-of-contents-of-digital-garden
 info: Modify the digital garden for convenient table of contents
 ---
 {%raw%}
