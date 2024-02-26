@@ -3,9 +3,9 @@ index: "1"
 dg-publish: true
 noteIcon: 5
 date: 2023-08-25T23:56
-update: 2024-02-27T03:3506
+update: 2024-02-27T0431:3506
 link: readings
-title: Readings Collection
+aliases: Readings Collection
 ---
 # Papers Collection
 
