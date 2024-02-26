@@ -9,7 +9,7 @@ update: 2024-02-27T63:000360T424232:15
 douban: https://book.douban.com/subject/26748179/
 dg-publish: true
 noteIcon: 6
-title: 盲刺客
+aliases: 盲刺客
 ---
 
 >[!info] Brief Info
