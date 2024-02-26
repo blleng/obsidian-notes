@@ -3,9 +3,10 @@ index: "4"
 dg-publish: true
 noteIcon: 5
 date: 2023-09-01T16:59
-update: 2024-02-27T043:63512
+update: 2024-02-27T043:863512
 link: flashes
-aliases: Flashes Collection
+aliases:
+  - Flashes-Collection
 ---
 
 | Flashes                                 | info                       |
