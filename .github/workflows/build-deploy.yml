@@ -15,7 +15,7 @@ env:
 jobs:
   Build-deploy:
     name: Check notes and build&deploy
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout codes
