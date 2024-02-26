@@ -1,3 +1,5 @@
+import { Poetry } from "../plugins"
+
 export interface ColorScheme {
   light: string
   lightgray: string
@@ -14,6 +16,7 @@ export interface Theme {
     header: string
     body: string
     code: string
+    poetry: string
   }
   cdnCaching: boolean
   colors: {
@@ -27,8 +30,8 @@ const DEFAULT_SANS_SERIF =
 const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
 export function googleFontHref(theme: Theme) {
-  const { code, header, body } = theme.typography
-  return `https://fonts.font.im/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&display=swap`
+  const { code, header, body, poetry } = theme.typography
+  return `https://fonts.font.im/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&family=${poetry}&display=swap`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {

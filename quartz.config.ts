@@ -19,6 +19,7 @@ const config: QuartzConfig = {
         header: "Noto Serif SC",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
+        poetry: "Caveat",
       },
       colors: {
         lightMode: {

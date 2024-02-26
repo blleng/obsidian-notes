@@ -1,9 +1,6 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
-@font-face {
-    font-family: 'Caveat';
-    src: url(https://fonts.font.im/css?family=Caveat);
-}
+
 hr {
     overflow: visible;
     padding: 0;
