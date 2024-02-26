@@ -8,9 +8,9 @@ Journal: Nature Catalysis
 Year: 2024
 DOI: 10.1038/s41929-023-01104-1
 date: 2024-02-19T11:20
-update: 2024-02-27T032390:21
+update: 2024-02-27T04323390:21
 link: proximity-controlled-nanoparticles-for-ba-hydrogenation
-title: Proximity-controlled nanoparticles for BA hydrogenation
+aliases: Proximity-controlled nanoparticles for BA hydrogenation
 ---
 
 Nanoparticle proximity controls selectivity in benzaldehyde hydrogenation
