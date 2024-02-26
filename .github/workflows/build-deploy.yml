@@ -3,8 +3,7 @@ name: Quartz build&deploy
 on:
   push:
     branches: [notes,main]
-  pull_request:
-    branches: [notes,main]
+
 
 permissions:
   contents: read
