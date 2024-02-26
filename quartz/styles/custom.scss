@@ -1,1 +1,28 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
+hr {
+    overflow: visible;
+    padding: 0;
+    margin: 4em auto;
+    border: none;
+    color: var(--gray);
+    text-align: center;
+    width: 40%;
+    border-color: var(--gray);
+    &:after {
+      content: "* * *";
+      display: inline-block;
+      margin: -1em 0 0.5em;
+      font-size: 1.5em;
+      padding: 0.5em 1em;
+      background: var(--light);
+    }
+  }
+  
+  pre.poetry {
+    font-size: 1.2rem;
+    font-family: biro_script_standardRgus;
+    border: none;
+    padding: 0;
+    position: unset;
+  }
