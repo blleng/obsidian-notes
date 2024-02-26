@@ -5,11 +5,11 @@ link: the-continuing-silence-of-a-poet
 author: "[以色列]亚伯拉罕·耶霍舒亚"
 cover: https://cdn.freezing.cool/images/202402261313962.jpg
 date: 2024-02-26T13:10
-update: 2024-02-276T0:336T17:15
+update: 2024-02-276T40:4336T17:15
 douban: https://book.douban.com/subject/35552618/
 dg-publish: true
 noteIcon: 6
-title: 诗人继续沉默
+aliases: 诗人继续沉默
 ---
 >[!info] Brief Info
 >作者: [[以色列]亚伯拉罕·耶霍舒亚](https://book.douban.com/search/%E4%BA%9A%E4%BC%AF%E6%8B%89%E7%BD%95%C2%B7%E8%80%B6%E9%9C%8D%E8%88%92%E4%BA%9A)  

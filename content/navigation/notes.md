@@ -3,9 +3,9 @@ index: "3"
 dg-publish: true
 noteIcon: 5
 date: 2023-08-28T01:20
-update: 2024-02-27T03:3509
+update: 2024-02-27T04316:3509
 link: notes
-title: Notes Collection
+aliases: Notes Collection
 ---
 
 # Tech Notes

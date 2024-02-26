@@ -3,12 +3,12 @@ link: poems-are-what-you-can-swallow
 dg-publish: true
 noteIcon: 3
 date: 2024-02-15T22:39
-update: 2024-02-27T03:4203:11
+update: 2024-02-27T03:43203:11
 tags:
   - writing/2024/02
   - writing/review
 id: writing20240215223949
-title: 动筷子时， 能生吞的才叫诗
+aliases: 动筷子时， 能生吞的才叫诗
 ---
 >[!abstract] 下面几行字是读过沈至诗集《寻找踏水村指南》后的一些随想。
 

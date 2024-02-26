@@ -1,14 +1,14 @@
 ---
 link: wechat-mini-program-and-esp8266-communication
 date: 2023-08-28T14:07
-update: 2024-02-276T33340112T8167:25
+update: 2024-02-276T4313340112T8167:25
 tags:
   - note/2023/08
   - note/control
 id: note20230828140740
 dg-publish: true
 noteIcon: 3
-title: The communication between wechat-mini-program and ESP8266
+aliases: The communication between wechat-mini-program and ESP8266
 info: Control ESP8266-developed robot by wechat mini program via mqtt
 ---
 

@@ -8,9 +8,9 @@ noteIcon: 6
 Year: 2023
 DOI: 10.1021/jacs.2c10435
 date: 2023-08-26T00:59
-update: 2024-02-27T03:24:320
+update: 2024-02-27T03:124:320
 link: two-way-synergy-of-dual-sites-enhances-rwgs-reaction
-title: Two-way synergy of dual sites enhances RWGS reaction
+aliases: Two-way synergy of dual sites enhances RWGS reaction
 ---
 
 Synergistic Interactions of Neighboring Platinum and Iron Atoms Enhance Reverse Water–Gas Shift Reaction Performance

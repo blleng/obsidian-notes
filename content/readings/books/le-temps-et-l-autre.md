@@ -4,12 +4,12 @@ tags:
 author: "[法]伊曼努尔·列维纳斯"
 cover: https://cdn.freezing.cool/images/202402261326470.jpg
 date: 2024-02-26T13:21
-update: 2024-02-27T60:3304T4224217:16
+update: 2024-02-27T60:34304T4224217:16
 douban: https://book.douban.com/subject/34940791/
 dg-publish: true
 noteIcon: 6
 link: le-temps-et-l-autre
-title: 时间与他者
+aliases: 时间与他者
 ---
 >[!info] Brief Info
 >作者: [[法]伊曼努尔·列维纳斯](https://book.douban.com/search/%E4%BC%8A%E6%9B%BC%E5%8A%AA%E5%B0%94%C2%B7%E5%88%97%E7%BB%B4%E7%BA%B3%E6%96%AF)  

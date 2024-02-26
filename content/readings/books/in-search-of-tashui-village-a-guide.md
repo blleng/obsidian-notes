@@ -5,11 +5,11 @@ link: in-search-of-tashui-village-a-guide
 author: 沈至
 cover: https://cdn.freezing.cool/images/202402171426515.jpg
 date: 2024-02-14T20:11
-update: 2024-02-27T603:33T0522177:16
+update: 2024-02-27T64034:33T0522177:16
 douban: https://book.douban.com/subject/36527880/
 dg-publish: true
 noteIcon: 6
-title: 寻找踏水村指南
+aliases: 寻找踏水村指南
 ---
 >[!info] Brief Info
 >作者: [沈至](https://book.douban.com/author/4623464)
