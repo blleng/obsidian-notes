@@ -7,10 +7,8 @@ Journal: Philosophical Studies
 Year: 2016
 DOI: 10.1007/s11098-015-0553-7
 date: 2023-09-01T14:07
-update: 2024-02-2760T433430:8002T2127:23
-link: belief-is-weak
-aliases:
-  - Belief-is-weak
+update: 2024-02-2760041T5433430:8002T2127:23
+title: Belief is weak
 ---
 
 Belief is weak
