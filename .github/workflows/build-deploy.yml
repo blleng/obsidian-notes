@@ -48,5 +48,5 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         target_branch: gh-page
-        build_dir: ./public
+        build_dir: public
         jekyll: false
