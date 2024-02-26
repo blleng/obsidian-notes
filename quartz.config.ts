@@ -50,6 +50,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
+      Plugin.Poetry(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({
         theme: {
