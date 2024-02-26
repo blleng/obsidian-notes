@@ -2,7 +2,7 @@
 link: approaches-to-correcting-the-false-belief
 info: 当信念与事实出现差异，是否存在一个机制对其进行纠正？
 date: 2023-09-01T16:50
-update: 2024-02-27T0431623:58733
+update: 2024-02-27T04:29
 tags:
   - flash/2023/09
 id: flash20230901165003

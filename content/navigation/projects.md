@@ -3,9 +3,10 @@ index: "2"
 dg-publish: true
 noteIcon: 5
 date: 2023-08-27T00:52
-update: 2024-02-27T04316:3508
+update: 2024-02-27T043216:3508
 link: projects
-aliases: Projects Collection
+aliases:
+  - Projects-Collection
 ---
 
 # Finished Projects

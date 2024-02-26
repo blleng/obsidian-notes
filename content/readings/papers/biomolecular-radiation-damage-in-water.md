@@ -7,9 +7,10 @@ Journal: Nature Chemistry
 Year: 2023
 DOI: 10.1038/s41557-023-01302-1
 date: 2023-09-02T01:35
-update: 2024-02-276T4:333393380012T2127:24
+update: 2024-02-276T44:3333393380012T2127:24
 link: biomolecular-radiation-damage-in-water
-aliases: Biomolecular radiation damage in water
+aliases:
+  - Biomolecular-radiation-damage-in-water
 ---
 
 Radiation damage by extensive local water ionization from two-step electron-transfer-mediated decay of solvated ions
