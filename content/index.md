@@ -2,12 +2,12 @@
 noteIcon: 5
 description: Moontains - My digital garden
 date: 2023-08-26T14:49
-update: 2024-02-27T06:03
+update: 2024-02-27T06:47
 dg-publish: true
 title: 山月记
 ---
 ```poetry
-Welcome to Moontians!
+Welcome to Moontains!
 ```
 
 > [!quote] 我仍只是一只，追逐天涯的孤雁
