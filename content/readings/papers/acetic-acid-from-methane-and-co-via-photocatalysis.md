@@ -8,9 +8,9 @@ noteIcon: 6
 Year: 2023
 DOI: 10.1021/jacs.2c10840
 date: 2023-08-26T00:55
-update: 2024-02-27T01:3308005T2222:43
+update: 2024-02-27T04:1:3308005T2222:43
 link: acetic-acid-from-methane-and-co-via-photocatalysis
-title: Acetic acid from methane and CO via photocatalysis
+aliases: Acetic acid from methane and CO via photocatalysis
 ---
 
 Direct Photocatalytic Synthesis of Acetic Acid from Methane and CO at Ambient Temperature Using Water as Oxidant
