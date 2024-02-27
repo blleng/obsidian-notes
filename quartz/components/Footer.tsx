@@ -28,7 +28,7 @@ export default ((opts?: Options) => {
           ))}
         </ul>
         {Object.entries(icp).map(([text, link]) => (
-          <p><a href={link}>{text}</a></p>
+          <p class="icp"><a href={link}>{text}</a></p>
         ))}
       </footer>
     )
