@@ -2,7 +2,7 @@
 noteIcon: 5
 description: Moontains - My digital garden
 date: 2023-08-26T14:49
-update: 2024-02-27T13:10
+update: 2024-02-27T13:14
 dg-publish: true
 title: 山月记
 ---
@@ -22,7 +22,7 @@ It's [open source](https://github.com/blleng/obsidian-notes) for sure.
 ## Navigation
 Principally, my garden is divided into 6 parts including **Flashes**, **Notes**, **Readings**, **Open Source**, **Writings**, **Wiki**.
 
-| Collection                | Content                                                                                                                                                                                                                                                                                   |
+| Name                      | Content                                                                                                                                                                                                                                                                                   |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[flashes\|Flashes]]      | This part contains ideas just flashed through my brain or inspiration from anywhere. These contents can be brief and immature, but they are always the original source of my further works. Contents here should be transformed into practical works for other parts as soon as possible. |
 | [[notes\|Notes]]          | Notes are commonly the records of history, conclusion or development of projects or other stuff I've done (or I'm doing). They can be derived from "Flashes" and may be related to my writings or open-source programs.                                                                   |
