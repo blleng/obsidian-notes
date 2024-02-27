@@ -1,7 +1,7 @@
 ---
-info: Get a sense of achievement by cleaning your toilet online
+description: Get a sense of achievement by cleaning your toilet online
 date: 2023-08-28T23:38
-update: 2024-02-27600:0:4T564316333012T177:28
+update: 2024-02-28T7600:0:4T564316333012T177:28
 tags:
   - note/2023/08
   - note/digital
