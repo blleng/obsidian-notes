@@ -1,6 +1,6 @@
 ---
 date: 2023-08-28T14:07
-update: 2024-02-27T05:29
+update: 2024-02-287T00575:29
 tags:
   - note/2023/08
   - note/control
@@ -9,7 +9,7 @@ dg-publish: true
 noteIcon: 3
 title:
   - The communication between wechat-mini-program and ESP8266
-info: Control ESP8266-developed robot by wechat mini program via mqtt
+description: Control ESP8266-developed robot by wechat mini program via mqtt
 ---
 
 用了大约一个月的时间做了一个ESP8266模块驱动的四足机器人，机器人的动作和屏幕显示主要参考了其他开源项目，但是这些项目往往依靠ESP8266本身创建Web服务进行控制，不方便缺乏技术基础的人使用，我开发了一个微信小程序利用MQTT通讯协议对机器人进行控制，在使用上方便了许多。
