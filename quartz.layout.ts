@@ -8,6 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
+      "Home": "/",
+      "GitHub": "https://github.com/blleng"
+    },
+    icp: {
       "蜀ICP备2023019585号": "https://beian.miit.gov.cn/#/Integrated/index",
       "川公网安备51012202000874": "https://beian.mps.gov.cn/#/query/webSearch?code=51012202000874",
     },

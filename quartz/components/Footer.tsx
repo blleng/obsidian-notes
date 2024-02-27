@@ -5,12 +5,14 @@ import { i18n } from "../i18n"
 
 interface Options {
   links: Record<string, string>
+  icp: Record<string, string>
 }
 
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    const icp = opts?.icp ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
@@ -25,6 +27,9 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
+        {Object.entries(icp).map(([text, link]) => (
+          <p><a href={link}>{text}</a></p>
+        ))}
       </footer>
     )
   }
