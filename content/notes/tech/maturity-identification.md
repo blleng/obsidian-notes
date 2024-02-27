@@ -2,7 +2,7 @@
 title: Maturity systems of my digital garden
 info: Constructing a maturity systems for my notes in digital garden
 date: 2024-02-27T12:28
-update: 2024-02-27T13:10
+update: 2024-02-27T13:15
 tags:
   - note/2024/02
   - note/frontend
@@ -33,7 +33,7 @@ noteIcon: 1|2|3|4|5|6
 ---
 ```
 ## Icons preparation
-These icons are all from [lucide](https://lucide.dev). Just choose icons you like and get their SVG files (or codes). Encode the SVG into Base64 format for embedding these icons within the CSS file.
+These icons are all from [lucide](https://lucide.dev). Just choose icons you like and get their SVG files (or codes). ==Encode the SVG into Base64== format for embedding these icons within the CSS file.
 These base64 codes are documented within the `/quartz/styles/custom.scss` file:
 
 ```scss
@@ -102,5 +102,5 @@ h1.article-title[data-icon="6"]::before {
 Visually display the quantity of each article category (e.g. [my previous garden](https://dg.freezing.cool))
 
 ```poetry
-To be continued
+To be continued...
 ```
