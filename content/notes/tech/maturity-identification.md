@@ -2,7 +2,7 @@
 title: Maturity systems of my digital garden
 info: Constructing a maturity systems for my notes in digital garden
 date: 2024-02-27T12:28
-update: 2024-02-27T13:15
+update: 2024-02-27T13:26
 tags:
   - note/2024/02
   - note/frontend
@@ -11,7 +11,7 @@ dg-publish: true
 noteIcon: 2
 ---
 >[!tip] Notice
->This papaer is partially written by Chat-GPT
+>This page is partially written by Chat-GPT
 
 The cultivation of knowledge entails a process, and visualizing this construction process becomes imperative. I am endeavoring to establish a system of identification to denote the maturity level of each article within my digital garden, ensuring a keen grasp on their completeness. The development of this system not only delineates the process of knowledge formation but also serves as a catalyst for my personal growth.
 
