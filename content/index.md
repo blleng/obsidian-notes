@@ -1,8 +1,6 @@
 ---
 noteIcon: 5
 description: Moontains - My digital garden
-date: 2023-08-26T14:49
-update: 2024-02-27T13:14
 dg-publish: true
 title: 山月记
 ---
