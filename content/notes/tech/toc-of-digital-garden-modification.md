@@ -1,6 +1,6 @@
 ---
 date: 2023-08-28T00:36
-update: 2024-02-27T05:287
+update: 2024-02-287T0:065:287
 tags:
   - note/2023/08
   - note/frontend
@@ -8,7 +8,7 @@ id: note20230828003602
 dg-publish: true
 noteIcon: 4
 title: Modification of table of contents of digital garden
-info: Modify the digital garden for convenient table of contents
+description: Modify the digital garden for convenient table of contents
 ---
 `Obsidian`的`Digital Garden`插件将文章目录与`Graph`、`Backlink`模块一同放在`sidebar`中，在移动端难以使用。
 这里对其模板做一些改动，让文章目录与`filetree`显示在同一区域，利用`js`实现Tab切换，方便使用。
