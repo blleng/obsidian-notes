@@ -66,6 +66,11 @@ button#explorer {
       opacity: 0.75;
       pointer-events: all;
     }
+    & :after{
+      @media (max-width: $fullPageWidth) {
+        display: none;;
+      }
+    }
   }
 }
 
