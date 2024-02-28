@@ -4,10 +4,10 @@ tags:
 author: "[法]伊曼努尔·列维纳斯"
 cover: https://cdn.freezing.cool/images/202402261326470.jpg
 date: 2024-02-26T13:21
-update: 2024-02-27T05:24
+update: 2024-02-297T440050:24
 douban: https://book.douban.com/subject/34940791/
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 title: 时间与他者
 ---
 >[!info] Brief Info
