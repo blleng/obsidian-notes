@@ -1,8 +1,8 @@
 ---
 title: Maturity systems of my digital garden
-info: Constructing a maturity systems for my notes in digital garden
+description: Constructing a maturity systems for my notes in digital garden
 date: 2024-02-27T12:28
-update: 2024-02-27T13:26
+update: 2024-02-28700T513:26
 tags:
   - note/2024/02
   - note/frontend
