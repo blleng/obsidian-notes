@@ -32,11 +32,11 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
   if (tags && tags.length > 0) {
     return (
       <ul class={classNames(displayClass, "tags")}>
-            <li>
-              <a href={maturityLink} class="internal tag-link" data-icon={maturity}>
-                {icon}
-              </a>
-            </li>        
+        <li>
+          <a href={maturityLink} class="internal tag-link" data-icon={maturity}>
+            {icon}
+          </a>
+        </li>
         {tags.map((tag) => {
           const display = `#${tag}`
           const linkDest = baseDir + `/tags/${slugTag(tag)}`
@@ -51,7 +51,15 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
       </ul>
     )
   } else {
-    return null
+    return (
+      <ul class={classNames(displayClass, "tags")}>
+        <li>
+          <a href={maturityLink} class="internal tag-link" data-icon={maturity}>
+            {icon}
+          </a>
+        </li>
+      </ul>
+    )
   }
 }
 
