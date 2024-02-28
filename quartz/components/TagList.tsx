@@ -4,10 +4,39 @@ import { classNames } from "../util/lang"
 
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
+  const maturity = fileData.frontmatter?.noteIcon
+  let icon = ""
+  switch(maturity) {
+    case 1:
+      icon = "Sprout"
+      break
+    case 2:
+      icon = "Sapling"
+      break
+    case 3:
+      icon = "Tree"
+      break
+    case 4:
+      icon = "Withered"
+      break
+    case 5:
+      icon = "Guideboard"
+      break
+    case 6:
+      icon = "Raindrop"
+      break
+  }
+  const maturityLink = `/maturity/${maturity}.html`
+
   const baseDir = pathToRoot(fileData.slug!)
   if (tags && tags.length > 0) {
     return (
       <ul class={classNames(displayClass, "tags")}>
+            <li>
+              <a href={maturityLink} class="internal tag-link" data-icon={maturity}>
+                {icon}
+              </a>
+            </li>        
         {tags.map((tag) => {
           const display = `#${tag}`
           const linkDest = baseDir + `/tags/${slugTag(tag)}`
