@@ -4,7 +4,7 @@ description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-02-28T01:24
+update: 2024-02-29T03:28
 ---
 
 > [!quote] 我仍只是一只，追逐天涯的孤雁
@@ -22,14 +22,14 @@ It's [open source](https://github.com/blleng/obsidian-notes) for sure.
 ## Navigation
 Principally, my garden is divided into 6 parts including **Flashes**, **Notes**, **Readings**, **Open Source**, **Writings**, **Wiki**.
 
-| Name                      | Content                                                                                                                                                                                                                                                                                   |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[flashes\|Flashes]]      | This part contains ideas just flashed through my brain or inspiration from anywhere. These contents can be brief and immature, but they are always the original source of my further works. Contents here should be transformed into practical works for other parts as soon as possible. |
-| [[notes\|Notes]]          | Notes are commonly the records of history, conclusion or development of projects or other stuff I've done (or I'm doing). They can be derived from "Flashes" and may be related to my writings or open-source programs.                                                                   |
-| [[readings\|Readings]]    | This part is the collection of my readings (e.g. Books, papers, magazins or othe materials). Contents here can be the origin of "Flashes" and finally the nutrition of my works.                                                                                                          |
-| [[projects\|Open Source]] | This part is the collection of my open-source programs.                                                                                                                                                                                                                                   |
-| [[writings\|Writings]]    | My literature works and output of thoughts are put here.                                                                                                                                                                                                                                  |
-| Wiki                      | Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.                                                                                                                                 |
+| Name                               | Content                                                                                                                                                                                                                                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[flashes/index\|Flashes]]         | This part contains ideas just flashed through my brain or inspiration from anywhere. These contents can be brief and immature, but they are always the original source of my further works. Contents here should be transformed into practical works for other parts as soon as possible. |
+| [[notes/index\|Notes]]             | Notes are commonly the records of history, conclusion or development of projects or other stuff I've done (or I'm doing). They can be derived from "Flashes" and may be related to my writings or open-source programs.                                                                   |
+| [[readings/index\|Readings]]       | This part is the collection of my readings (e.g. Books, papers, magazins or othe materials). Contents here can be the origin of "Flashes" and finally the nutrition of my works.                                                                                                          |
+| [[open source/index\|Open Source]] | This part is the collection of my open-source programs.                                                                                                                                                                                                                                   |
+| [[writings/index\|Writings]]       | My literature works and output of thoughts are put here.                                                                                                                                                                                                                                  |
+| Wiki                               | Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.                                                                                                                                 |
 
 ## Maturity Levels
 Maturity level of each note has been decided subjectively by me. In fact, I need this [[maturity-identification|maturity-identification]] system due to my immaturity.
