@@ -1,10 +1,10 @@
 ---
-noteIcon: 5
+maturity: guideboard
 description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-02-29T04:07
+update: 2024-02-29T04:16
 ---
 
 > [!quote] 我仍只是一只，追逐天涯的孤雁
