@@ -1,12 +1,12 @@
 ---
 description: 当信念与事实出现差异，是否存在一个机制对其进行纠正？
 date: 2023-09-01T16:50
-update: 2024-02-28T00:55
+update: 2024-02-298T4:40220:55
 tags:
   - flash/2023/09
 id: flash20230901165003
 dg-publish: true
-noteIcon: 1
+maturity: sprout
 title: 错误信念的有效纠正机制
 ---
 

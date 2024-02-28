@@ -2,13 +2,13 @@
 title: Maturity systems of my digital garden
 description: Constructing a maturity systems for my notes in digital garden
 date: 2024-02-27T12:28
-update: 2024-02-28700T513:26
+update: 2024-02-298047020T513:26
 tags:
   - note/2024/02
   - note/frontend
 id: note20240227122841
 dg-publish: true
-noteIcon: 2
+maturity: sapling
 ---
 >[!tip] Notice
 >This page is partially written by Chat-GPT

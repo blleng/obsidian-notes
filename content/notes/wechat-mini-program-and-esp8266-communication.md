@@ -1,12 +1,12 @@
 ---
 date: 2023-08-28T14:07
-update: 2024-02-287T00575:29
+update: 2024-02-29874T010575:29
 tags:
   - note/2023/08
   - note/control
 id: note20230828140740
 dg-publish: true
-noteIcon: 3
+maturity: tree
 title:
   - The communication between wechat-mini-program and ESP8266
 description: Control ESP8266-developed robot by wechat mini program via mqtt

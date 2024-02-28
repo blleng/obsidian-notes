@@ -1,9 +1,9 @@
 ---
 index: "1"
 dg-publish: true
-noteIcon: 5
+maturity: guideboard
 date: 2023-08-25T23:56
-update: 2024-02-27T05:31
+update: 2024-02-297T440757:31
 title: Readings Collection
 ---
 # Papers Collection

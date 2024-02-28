@@ -1,12 +1,12 @@
 ---
 date: 2023-08-28T00:36
-update: 2024-02-287T0:065:287
+update: 2024-02-29874T01:065:287
 tags:
   - note/2023/08
   - note/frontend
 id: note20230828003602
 dg-publish: true
-noteIcon: 4
+maturity: withered
 title: Modification of table of contents of digital garden
 description: Modify the digital garden for convenient table of contents
 ---

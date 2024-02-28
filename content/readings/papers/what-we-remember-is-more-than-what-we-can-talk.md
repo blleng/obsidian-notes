@@ -2,12 +2,12 @@
 tags:
   - paper/unviewed/humanities/philosophy/epistemology
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 Journal: 社会科学报
 Year: 2023
 DOI: Not supported.
 date: 2023-08-30T21:49
-update: 2024-02-27T05:25
+update: 2024-02-297T4:40185:25
 title: 我们记得的，多于我们能说的
 ---
 

@@ -2,12 +2,12 @@
 tags:
   - paper/unviewed/humanities/philosophy/epistemology
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 Journal: Ratio
 Year: 2023
 DOI: 10.1111/rati.12381
 date: 2023-09-01T14:15
-update: 2024-02-27T04:1:5321:3904
+update: 2024-02-297T04:81:5321:3904
 title: Memory belief is weak
 ---
 

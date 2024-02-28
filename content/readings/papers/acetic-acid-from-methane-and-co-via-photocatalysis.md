@@ -4,11 +4,11 @@ tags:
   - paper/viewed/sciences/chemistry/oxidation
 Journal: Journal of the American Chemical Society
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 Year: 2023
 DOI: 10.1021/jacs.2c10840
 date: 2023-08-26T00:55
-update: 2024-02-27T05411:523
+update: 2024-02-297T0:5919411:523
 title: Acetic acid from methane and CO via photocatalysis
 ---
 

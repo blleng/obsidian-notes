@@ -4,10 +4,10 @@ tags:
 author: "[加]玛格丽特·阿特伍德"
 cover: https://cdn.freezing.cool/images/202402171426022.jpg
 date: 2024-02-15T22:23
-update: 2024-02-27T05:23
+update: 2024-02-297T4050:23
 douban: https://book.douban.com/subject/26748179/
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 title: 盲刺客
 ---
 

@@ -3,12 +3,12 @@ tags:
   - project/frontend/hexo
   - project/finished
 dg-publish: true
-noteIcon: 3
+maturity: tree
 github: https://github.com/blleng/hexo-theme-lx/
 document: https://lx.js.org
 index: "1"
 date: 2023-08-27T00:38
-update: 2024-02-27T05:27
+update: 2024-02-297T4051:27
 title: A theme designed for Hexo - Hexo-Theme-Lx
 ---
 
