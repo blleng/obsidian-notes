@@ -2,12 +2,12 @@
 tags:
   - paper/viewed/sciences/chemistry/simulation
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 Journal: Applied Surface Science
 Year: 2012
 DOI: 10.1016/j.apsusc.2011.05.122
 date: 2023-10-08T15:23
-update: 2024-02-27T04352:10914T2222:53
+update: 2024-02-297T04352:10914T2222:53
 title: Diverse nanowires activated self-scrolling of graphene nanoribbons
 ---
 
