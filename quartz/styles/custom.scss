@@ -9,7 +9,7 @@ body {
   --note-icon-6: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxZmE0ZDEiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1kcm9wbGV0Ij48cGF0aCBkPSJNMTIgMjJhNyA3IDAgMCAwIDctN2MwLTItMS0zLjktMy01LjVzLTMuNS00LTQtNi41Yy0uNSAyLjUtMiA0LjktNCA2LjVDNiAxMS4xIDUgMTMgNSAxNWE3IDcgMCAwIDAgNyA3eiIvPjwvc3ZnPg==);
 }
 
-h1.article-title[data-icon]::before {
+*[data-icon]::before {
   content: " ";
   display: inline-block;
   width: 1em;
@@ -18,27 +18,27 @@ h1.article-title[data-icon]::before {
   background-repeat: no-repeat;
 }
 
-h1.article-title[data-icon="1"]::before {
+*[data-icon="1"]::before {
   background-image: var(--note-icon-1)
 }
 
-h1.article-title[data-icon="2"]::before {
+*[data-icon="2"]::before {
   background-image: var(--note-icon-2)
 }
 
-h1.article-title[data-icon="3"]::before {
+*[data-icon="3"]::before {
   background-image: var(--note-icon-3)
 }
 
-h1.article-title[data-icon="4"]::before {
+*[data-icon="4"]::before {
   background-image: var(--note-icon-4)
 }
 
-h1.article-title[data-icon="5"]::before {
+*[data-icon="5"]::before {
   background-image: var(--note-icon-5)
 }
 
-h1.article-title[data-icon="6"]::before {
+*[data-icon="6"]::before {
   background-image: var(--note-icon-6)
 }
 
