@@ -71,6 +71,16 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))
             if (cssclasses) data.cssclasses = cssclasses
 
+            if (data.maturity && !Array.isArray(data.maturity)) {
+              data.maturity = data.maturity
+                .toString()
+                .split(",")
+                .map((landscape: string) => landscape.trim())
+            }
+
+            // slug them all!!
+            data.maturity = [...new Set(data.maturity?.map((landscape: string) => slugTag(landscape)))]
+
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]
           }
@@ -92,7 +102,7 @@ declare module "vfile" {
         draft: boolean
         enableToc: string
         cssclasses: string[]
-        noteIcon: string[]
+        maturity: string[]
       }>
   }
 }

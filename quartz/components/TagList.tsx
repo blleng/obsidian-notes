@@ -1,28 +1,30 @@
 import { pathToRoot, slugTag } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { string } from "yargs"
 
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
-  const maturity = fileData.frontmatter?.noteIcon
+  let maturity : string[]
+  maturity = fileData.frontmatter?.maturity ?? ["sprout"]
   let icon = ""
-  switch(maturity) {
-    case 1:
+  switch(maturity[0]) {
+    case "sprout":
       icon = "Sprout"
       break
-    case 2:
+    case "sapling":
       icon = "Sapling"
       break
-    case 3:
+    case "tree":
       icon = "Tree"
       break
-    case 4:
+    case "withered":
       icon = "Withered"
       break
-    case 5:
+    case "guideboard":
       icon = "Guideboard"
       break
-    case 6:
+    case "raindrop":
       icon = "Raindrop"
       break
   }

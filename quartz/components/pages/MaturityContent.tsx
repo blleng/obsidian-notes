@@ -18,7 +18,7 @@ function MaturityContent(props: QuartzComponentProps) {
   const maturity = simplifySlug(slug.slice("maturity/".length) as FullSlug)
   const allPagesWithMaturity = (maturity: string) =>
     allFiles.filter((file) =>
-      (file.frontmatter?.noteIcon ?? []).flatMap(getAllSegmentPrefixes).includes(maturity),
+      (file.frontmatter?.maturity ?? []).flatMap(getAllSegmentPrefixes).includes(maturity),
     )
   const content =
     (tree as Root).children.length === 0
@@ -27,7 +27,7 @@ function MaturityContent(props: QuartzComponentProps) {
         toJsxRuntime(tree, { Fragment, jsx, jsxs, elementAttributeNameCase: "html" })
   if (maturity === "" || slug.slice(-6) == "/index") {
     // Most likely this is the index page
-    const maturitys = [...new Set(allFiles.flatMap((data) => data.frontmatter?.noteIcon ?? []))]
+    const maturitys = [...new Set(allFiles.flatMap((data) => data.frontmatter?.maturity ?? []))]
     const maturityItemMap: Map<string, QuartzPluginData[]> = new Map()
     for (const maturity of maturitys) {
         maturityItemMap.set(maturity, allPagesWithMaturity(maturity))

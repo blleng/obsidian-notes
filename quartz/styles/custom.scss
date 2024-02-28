@@ -18,27 +18,27 @@ a.internal.tag-link[data-icon]::before {
   background-repeat: no-repeat;
 }
 
-*[data-icon="1"]::before {
+*[data-icon="sprout"]::before {
   background-image: var(--note-icon-1)
 }
 
-*[data-icon="2"]::before {
+*[data-icon="sapling"]::before {
   background-image: var(--note-icon-2)
 }
 
-*[data-icon="3"]::before {
+*[data-icon="tree"]::before {
   background-image: var(--note-icon-3)
 }
 
-*[data-icon="4"]::before {
+*[data-icon="withred"]::before {
   background-image: var(--note-icon-4)
 }
 
-*[data-icon="5"]::before {
+*[data-icon="guideboard"]::before {
   background-image: var(--note-icon-5)
 }
 
-*[data-icon="6"]::before {
+*[data-icon="raindrop"]::before {
   background-image: var(--note-icon-6)
 }
 
