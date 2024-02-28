@@ -4,10 +4,10 @@ tags:
 author: "[以色列]亚伯拉罕·耶霍舒亚"
 cover: https://cdn.freezing.cool/images/202402261313962.jpg
 date: 2024-02-26T13:10
-update: 2024-02-27T05:23
+update: 2024-02-297T4050:23
 douban: https://book.douban.com/subject/35552618/
 dg-publish: true
-noteIcon: 6
+maturity: raindrop
 title: 诗人继续沉默
 ---
 >[!info] Brief Info
