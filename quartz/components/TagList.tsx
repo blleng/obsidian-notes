@@ -28,7 +28,7 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
       icon = "Raindrop"
       break
   }
-  const maturityLink = `/maturity/${maturity}.html`
+  const maturityLink = `/maturity/${maturity}`
 
   const baseDir = pathToRoot(fileData.slug!)
   if (tags && tags.length > 0) {

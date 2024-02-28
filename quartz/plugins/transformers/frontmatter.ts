@@ -76,6 +76,8 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
                 .toString()
                 .split(",")
                 .map((landscape: string) => landscape.trim())
+            } else {
+              data.maturity = ["sprout"]
             }
 
             // slug them all!!
