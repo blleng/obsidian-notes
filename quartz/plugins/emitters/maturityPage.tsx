@@ -44,7 +44,7 @@ export const MaturityPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
           return [
             maturity,
             defaultProcessedContent({
-              slug: joinSegments("maturitys", maturity) as FullSlug,
+              slug: joinSegments("maturity", maturity) as FullSlug,
               frontmatter: { title, tags: [], maturitys: [] },
             }),
           ]
@@ -53,8 +53,8 @@ export const MaturityPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
 
       for (const [tree, file] of content) {
         const slug = file.data.slug!
-        if (slug.startsWith("maturitys/")) {
-          const maturity = slug.slice("maturitys/".length)
+        if (slug.startsWith("maturity/")) {
+          const maturity = slug.slice("maturity/".length)
           if (maturitys.has(maturity)) {
             maturityDescriptions[maturity] = [tree, file]
           }
@@ -62,7 +62,7 @@ export const MaturityPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
       }
 
       for (const maturity of maturitys) {
-        const slug = joinSegments("maturitys", maturity) as FullSlug
+        const slug = joinSegments("maturity", maturity) as FullSlug
         const externalResources = pageResources(pathToRoot(slug), resources)
         const [tree, file] = maturityDescriptions[maturity]
         const componentData: QuartzComponentProps = {
