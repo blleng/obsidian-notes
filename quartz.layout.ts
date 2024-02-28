@@ -59,7 +59,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [
-    Component.MobileOnly(Component.Explorer()),
-  ],
+  right: [],
 }
