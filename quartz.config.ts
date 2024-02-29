@@ -6,9 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "Moontains",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "google", tagId: "G-8Q0FV3QMTP",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "freezing.cool",
     ignorePatterns: ["private", "templates", ".obsidian"],
