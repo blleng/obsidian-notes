@@ -2,7 +2,7 @@
 title: Maturity systems of my digital garden
 description: Constructing a maturity systems for my notes in digital garden
 date: 2024-02-27T12:28
-update: 2024-03-01T00:57
+update: 2024-03-01T01:08
 tags:
   - note/2024/02
   - note/frontend
@@ -125,7 +125,7 @@ export default {
 ## Add maturity in tags field
 Maturity value of each note is added in the `tags` field in the rendered page.
 
-```ts title="quartz/components/TagList.tsx" {5-28,34-38,46-52}
+```ts title="quartz/components/TagList.tsx" {4-27,33-37,45-51}
 ...
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
@@ -241,3 +241,5 @@ span.maturity-count {
   font-family: var(--headerFont);
 }
 ```
+
+At this stage, the modification has finished.
