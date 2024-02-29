@@ -71,9 +71,9 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources({ fontOrigin: "googleFonts" }),
       Plugin.ContentPage(),
-      Plugin.MaturityPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
+      Plugin.MaturityPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

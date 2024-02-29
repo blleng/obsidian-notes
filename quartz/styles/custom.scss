@@ -9,13 +9,22 @@ body {
   --note-icon-6: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxZmE0ZDEiIHN0cm9rZS13aWR0aD0iMS4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1kcm9wbGV0Ij48cGF0aCBkPSJNMTIgMjJhNyA3IDAgMCAwIDctN2MwLTItMS0zLjktMy01LjVzLTMuNS00LTQtNi41Yy0uNSAyLjUtMiA0LjktNCA2LjVDNiAxMS4xIDUgMTMgNSAxNWE3IDcgMCAwIDAgNyA3eiIvPjwvc3ZnPg==);
 }
 
-a.internal.tag-link[data-icon]::before {
+*[data-icon]::before {
   content: " ";
   display: inline-block;
-  width: 1.4em;
   padding-right: 0.3em;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+a.internal.tag-link[data-icon]::before{
+  width: 1.4em;
+}
+
+h2[data-icon]::before{
+  height: 1.2em;
+  width: 1.2em;
+  margin-bottom: -0.15em;
 }
 
 *[data-icon="sprout"]::before {
@@ -61,13 +70,18 @@ hr {
     }
   }
   
-  pre.poetry {
-    font-size: 1.2rem;
-    font-family: 'Caveat', cursive;
-    border: none;
-    padding: 0;
-    position: unset;
-    font-size: 1.46rem;
-    text-align: center;
-  }
+pre.poetry {
+  font-size: 1.2rem;
+  font-family: 'Caveat', cursive;
+  border: none;
+  padding: 0;
+  position: unset;
+  font-size: 1.46rem;
+  text-align: center;
+}
 
+span.maturity-count {
+  font-weight: bold;
+  font-style: italic;
+  font-family: var(--headerFont);
+}

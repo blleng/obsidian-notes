@@ -81,6 +81,8 @@ export interface Translation {
     }
     maturityContent: {
       itemsUnderTag: (variables: { count: number }) => string
+      showingFirst: (variables: { count: number }) => string
+      totalTags: (variables: { count: number }) => string
   }
   }
 }
