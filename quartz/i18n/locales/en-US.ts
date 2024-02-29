@@ -81,9 +81,9 @@ export default {
     },
     maturityContent: {
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 page under this maturity." : `${count} pages under this maturity.`,
-      showingFirst: ({ count }) => `Showing recent ${count} pages.`,
-      totalTags: ({ count }) => `${count} total types of maturity in all.`,
+        count === 1 ? "1 note under this maturity." : `${count} notes under this maturity.`,
+      showingFirst: ({ count }) => `Showing recent ${count} notes.`,
+      totalTags: ({ count }) => `Garden has ${count} types of maturity in all.`,
     },
   },
 } as const satisfies Translation
