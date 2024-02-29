@@ -33,7 +33,7 @@ export const MaturityPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
       const cfg = ctx.cfg.configuration
 
       const maturitys: Set<string> = new Set(
-        allFiles.flatMap((data) => data.frontmatter?.noteIcon ?? []).flatMap(getAllSegmentPrefixes),
+        allFiles.flatMap((data) => data.frontmatter?.maturity ?? []).flatMap(getAllSegmentPrefixes),
       )
       // add base maturity
       maturitys.add("index")

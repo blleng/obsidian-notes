@@ -79,5 +79,9 @@ export default {
       showingFirst: ({ count }) => `Showing first ${count} tags.`,
       totalTags: ({ count }) => `Found ${count} total tags.`,
     },
+    maturityContent: {
+      itemsUnderTag: ({ count }) =>
+        count === 1 ? "1 page under this Maturity." : `${count} pages under this maturity.`,
+    },
   },
 } as const satisfies Translation
