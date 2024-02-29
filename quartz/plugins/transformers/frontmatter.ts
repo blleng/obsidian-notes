@@ -75,13 +75,11 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
               data.maturity = data.maturity
                 .toString()
                 .split(",")
-                .map((landscape: string) => landscape.trim())
+                .map((maturity: string) => maturity.trim())
             } else {
               data.maturity = ["sprout"]
             }
-
-            // slug them all!!
-            data.maturity = [...new Set(data.maturity?.map((landscape: string) => slugTag(landscape)))]
+            data.maturity = [...new Set(data.maturity?.map((maturity: string) => slugTag(maturity)))]
 
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]

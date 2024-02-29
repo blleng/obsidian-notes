@@ -11,7 +11,7 @@ const numPages = 5
 function MaturityContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug
-  
+
   if (!(slug?.startsWith("maturity/") || slug === "maturity")) {
     throw new Error(`Component "MaturityContent" tried to render a non-maturity page: ${slug}`)
   }
@@ -39,7 +39,7 @@ function MaturityContent(props: QuartzComponentProps) {
     for (const maturity of maturitys) {
         maturityItemMap.set(maturity, allPagesWithMaturity(maturity))
     }
-    
+
     return (
       <div class={classes}>
         <article>
