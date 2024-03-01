@@ -327,7 +327,8 @@ figure[data-rehype-pretty-code-figure] {
     font-size: 0.9rem;
     padding: 0.1rem 0.5rem;
     border: 1px solid var(--lightgray);
-    width: max-content;
+    max-width: max-content;
+    overflow-wrap: break-word;
     border-radius: 5px;
     margin-bottom: -0.5rem;
     color: var(--darkgray);
