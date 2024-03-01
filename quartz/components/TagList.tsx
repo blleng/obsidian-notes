@@ -83,7 +83,7 @@ TagList.css = `
   display: inline-block;
   white-space: pre-wrap;
   margin: 0;
-  overflow-wrap: normal;
+  overflow-wrap: break-word;
 }
 
 a.internal.tag-link {
