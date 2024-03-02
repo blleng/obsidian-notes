@@ -7,7 +7,7 @@ import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 
-const numPages = 10
+const numPages = 5
 const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
   const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug

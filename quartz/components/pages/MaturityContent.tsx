@@ -43,7 +43,7 @@ function MaturityContent(props: QuartzComponentProps) {
     return (
       <div class={classes}>
         <article>
-          <p>{content}</p>
+          <p>The cultivation of knowledge entails a process, and visualizing this construction process becomes imperative. I am endeavoring to establish a system of identification to denote the maturity level of each article within my digital garden, ensuring a keen grasp on their completeness.</p>
         </article>
         <span class="maturity-count">{i18n(cfg.locale).pages.maturityContent.totalTags({ count: maturitys.length })}</span>
         <hr/>
@@ -55,9 +55,35 @@ function MaturityContent(props: QuartzComponentProps) {
               allFiles: pages,
             }
 
-            const contentPage = allFiles.filter((file) => file.slug === `maturity/${maturity}`)[0]
-            const content = contentPage?.description
-            const title = contentPage?.frontmatter?.title
+            let content = ""
+            let title = ""
+            switch(maturity) {
+              case "sprout":
+                content = "Sprouts are thoughts barely started. Maybe jotted down on haste or simply showing only the brief amount of what I thought about it by far."
+                title = "Sprouts"
+                break
+              case "sapling":
+                content = "Saplings have a substantial amount of content, they may show periodical developmet derived from seedlings or fertilizer."
+                title = "Saplings"
+                break
+              case "tree":
+                content = "Trees are grown up coherent piece of thought/essay/expression that should not change much except for some editorial enhancements."
+                title = "Trees"
+                break
+              case "withered":
+                content = "Withered leaves are the notes expressing outdated views (totally or partially) and should be cutted. These contents are kept for historicity of thoughts."
+                title = "Withered Leaves"
+                break
+              case "guideboard":
+                content = "Guide boards are notes that allow us to navigate easily (e.g. Collection of books or writings)."
+                title = "Guide Boards"
+                break
+              case "raindrop":
+                content = "Raindrops are notes exported/extracted from other mediums (e.g. Reading highlight and notes). They provide necessary water for other notes to grow."
+                title = "Raindrops"
+                break
+            }
+
             return (
               <div>
                 <h2 data-icon={maturity}>
@@ -65,7 +91,7 @@ function MaturityContent(props: QuartzComponentProps) {
                     {title}
                   </a>
                 </h2>
-                {content && <p>{content}</p>}
+                <p>{content}</p>
                 <div class="page-listing">
                   <span class="maturity-count">
                     {i18n(cfg.locale).pages.maturityContent.itemsUnderTag({ count: pages.length })}
@@ -95,7 +121,6 @@ function MaturityContent(props: QuartzComponentProps) {
 
     return (
       <div class={classes}>
-        <article>{content}</article>
         <div class="page-listing">
           <span class="maturity-count">{i18n(cfg.locale).pages.maturityContent.itemsUnderTag({ count: pages.length })}</span>
           <div>

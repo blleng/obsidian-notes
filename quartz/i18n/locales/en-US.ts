@@ -83,7 +83,7 @@ export default {
       itemsUnderTag: ({ count }) =>
         count === 1 ? "1 note under this maturity." : `${count} notes under this maturity.`,
       showingFirst: ({ count }) => `Showing recent ${count} notes.`,
-      totalTags: ({ count }) => `Garden has ${count} types of maturity in all.`,
+      totalTags: ({ count }) => `The garden has ${count} types of maturity in all.`,
     },
   },
 } as const satisfies Translation

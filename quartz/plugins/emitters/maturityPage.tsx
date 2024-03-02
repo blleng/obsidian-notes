@@ -40,7 +40,28 @@ export const MaturityPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
 
       const maturityDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
         [...maturitys].map((maturity) => {
-          const title = maturity === "" ? "maturity Index" : `${maturity}`
+          let maturityName = "Maturity Index"
+          switch(maturity) {
+            case "sprout":
+              maturityName = "Sprouts"
+              break
+            case "sapling":
+              maturityName = "Saplings"
+              break
+            case "tree":
+              maturityName = "Trees"
+              break
+            case "withered":
+              maturityName = "Withered Leaves"
+              break
+            case "guideboard":
+              maturityName = "Guide Boards"
+              break
+            case "raindrop":
+              maturityName = "Raindrops"
+              break
+          }
+          const title = maturityName
           return [
             maturity,
             defaultProcessedContent({
