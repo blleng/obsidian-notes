@@ -4,7 +4,7 @@ description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-03-02T16:41
+update: 2024-03-02T16:56
 ---
 ```poetry
 Everything begins to look around.
@@ -13,7 +13,7 @@ We walk in the sun in hundreds.
 Each man is a half-open door
 leading to a room for everyone.
 
-Tomas Tranströmer, **The Half-Finished Heaven**
+——Tomas Tranströmer, "The Half-Finished Heaven"
 ```
 
 ---
