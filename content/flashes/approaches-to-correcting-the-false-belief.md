@@ -1,13 +1,13 @@
 ---
-description: 当信念与事实出现差异，是否存在一个机制对其进行纠正？
+description: When disparities occur between beliefs and facts, if there's a mechanism to rectifying erroneous beliefs?
 date: 2023-09-01T16:50
-update: 2024-03-03T13:53
+update: 2024-03-03T13:56
 tags:
   - flash/2023/09
 id: flash20230901165003
 dg-publish: true
 maturity: sprout
-title: 错误信念的有效纠正机制
+title: An efficacious mechanism for rectifying erroneous beliefs
 ---
 [[belief-is-weak|Belief is weak]], this may naturally deviate from facts and knowledge, prompting the question: Is there an efficacious and expeditious mechanism in place for rectifying erroneous beliefs? If such a mechanism exists, how does it function?
 
