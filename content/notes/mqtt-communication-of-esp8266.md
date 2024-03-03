@@ -1,6 +1,6 @@
 ---
 date: 2023-08-28T14:07
-update: 2024-03-03T13:10
+update: 2024-03-03T13:27
 tags:
   - note/2023/08
   - note/arduino
@@ -14,7 +14,7 @@ description: Control ESP8266-developed robot by wechat mini program via mqtt
 Over the course of approximately a month, I have crafted a quadruped robot driven by an `ESP8266` module. The robot's movements control and on-screen displays drawing are primarily from other open-source programs. However, these programs frequently rely on the `ESP8266` itself to establish web services for control, posing challenges for users with limited technical backgrounds. To address this issue, I have made a WeChat mini-program that introduce `MQTT` communication protocols to control the robot, significantly enhancing user accessibility.
 
 # Communication Route
-![excalidraw](https://cdn.freezing.cool/images/202308281558287.svg)
+![invert](https://cdn.freezing.cool/images/202403031327416.svg)
 
 # Features
 The core of this robot project is developed around the `ESP8266 (NodeMCU)` module, utilizing the `PCA9685 `servo expansion board to control eight `SG90` servos through the `PWM` library.
