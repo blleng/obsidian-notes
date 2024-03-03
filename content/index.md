@@ -4,7 +4,7 @@ description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-03-02T16:56
+update: 2024-03-03T14:13
 ---
 ```poetry
 Everything begins to look around.
@@ -15,8 +15,6 @@ leading to a room for everyone.
 
 ——Tomas Tranströmer, "The Half-Finished Heaven"
 ```
-
----
 
 ```poetry
 Welcome to Moontains!
