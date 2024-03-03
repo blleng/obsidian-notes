@@ -10,7 +10,7 @@ body {
 }
 
 [saved-theme=dark] img[alt=invert] {
-  filter: invert();
+  filter: invert(1);
 }
 
 *[data-icon]::before {
