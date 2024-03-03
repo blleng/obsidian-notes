@@ -7,7 +7,7 @@ Journal: Applied Surface Science
 Year: 2012
 DOI: 10.1016/j.apsusc.2011.05.122
 date: 2023-10-08T15:23
-update: 2024-02-297T04352:10914T2222:53
+update: 2024-03-03T13:28
 title: Diverse nanowires activated self-scrolling of graphene nanoribbons
 ---
 
@@ -130,7 +130,7 @@ A simulation of the Fe-Graphene system by LAMMPS:
 ```
 
 ## Workflow
-![workflow](https://cdn.freezing.cool/images/202310091546420.svg)
+![invert](https://cdn.freezing.cool/images/202403031328115.svg)
 ## Simulation Results
 
 ### Model Showcase
