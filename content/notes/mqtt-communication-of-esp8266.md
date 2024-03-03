@@ -1,6 +1,6 @@
 ---
 date: 2023-08-28T14:07
-update: 2024-03-03T13:27
+update: 2024-03-03T14:06
 tags:
   - note/2023/08
   - note/arduino
@@ -313,304 +313,148 @@ void loop() {
 // |  5   |             |  4   |
 void sleep() 
 {
-  pwm.setPWM(4, 0, 340);
-  delay(100);
-  pwm.setPWM(5, 0, 370);
-  delay(100);
-  pwm.setPWM(6, 0, 360);
-  delay(100);
-  pwm.setPWM(7, 0, 410);
-  delay(100);
-  pwm.setPWM(0, 0, 390);
-  delay(100);
-  pwm.setPWM(1, 0, 190);
-  delay(100);
-  pwm.setPWM(2, 0, 185);
-  delay(100);
+  pwm.setPWM(4, 0, 340); delay(100);
+  pwm.setPWM(5, 0, 370); delay(100);
+  pwm.setPWM(6, 0, 360); delay(100);
+  pwm.setPWM(7, 0, 410); delay(100);
+  pwm.setPWM(0, 0, 390); delay(100);
+  pwm.setPWM(1, 0, 190); delay(100);
+  pwm.setPWM(2, 0, 185); delay(100);
   pwm.setPWM(3, 0, 365);
 }
 
 void normal()
 {
-  pwm.setPWM(0, 0, 280);
-  delay(100);
-  pwm.setPWM(1, 0, 280);
-  delay(100);
-  pwm.setPWM(2, 0, 280);
-  delay(100);
-  pwm.setPWM(3, 0, 270);
-  delay(100);
-  pwm.setPWM(4, 0, 580);
-  delay(100);
-  pwm.setPWM(5, 0, 120);
-  delay(100);
-  pwm.setPWM(6, 0, 595);
-  delay(100);
+  pwm.setPWM(0, 0, 280); delay(100);
+  pwm.setPWM(1, 0, 280); delay(100);
+  pwm.setPWM(2, 0, 280); delay(100);
+  pwm.setPWM(3, 0, 270); delay(100);
+  pwm.setPWM(4, 0, 580); delay(100);
+  pwm.setPWM(5, 0, 120); delay(100);
+  pwm.setPWM(6, 0, 595); delay(100);
   pwm.setPWM(7, 0, 135);
 }
 
 void left()
 {
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(7, 0, 260);
-  delay(100);
-  pwm.setPWM(0, 0, 390);
-  pwm.setPWM(3, 0, 365);
-  delay(100);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(7, 0, 135);
-  delay(100);
-  pwm.setPWM(6, 0, 460);
-  pwm.setPWM(5, 0, 280);
-  delay(100);
-  pwm.setPWM(2, 0, 450);
-  pwm.setPWM(1, 0, 460);
-  delay(100);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(5, 0, 120);
-  delay(100);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(1, 0, 280);
-  pwm.setPWM(2, 0, 280);
-  pwm.setPWM(3, 0, 270);
-  delay(100);
+  pwm.setPWM(4, 0, 450); pwm.setPWM(7, 0, 260); delay(100);
+  pwm.setPWM(0, 0, 390); pwm.setPWM(3, 0, 365); delay(100);
+  pwm.setPWM(4, 0, 580); pwm.setPWM(7, 0, 135); delay(100);
+  pwm.setPWM(6, 0, 460); pwm.setPWM(5, 0, 280); delay(100);
+  pwm.setPWM(2, 0, 450); pwm.setPWM(1, 0, 460); delay(100);
+  pwm.setPWM(6, 0, 595); pwm.setPWM(5, 0, 120); delay(100);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(1, 0, 280); pwm.setPWM(2, 0, 280);
+  pwm.setPWM(3, 0, 270); delay(100);
 }
 
 void right()
 {
-  pwm.setPWM(5, 0, 280);
-  pwm.setPWM(6, 0, 490);
-  delay(100);
-  pwm.setPWM(1, 0, 190);
-  pwm.setPWM(2, 0, 185);
-  delay(100);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 595);
-  delay(100);
-  pwm.setPWM(7, 0, 260);
-  pwm.setPWM(4, 0, 450);
-  delay(100);
-  pwm.setPWM(3, 0, 210);
-  pwm.setPWM(0, 0, 190);
-  delay(100);
-  pwm.setPWM(7, 0, 135);
-  pwm.setPWM(4, 0, 580);
-  delay(100);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(1, 0, 280);
-  pwm.setPWM(2, 0, 280);
-  pwm.setPWM(3, 0, 270);
-  delay(100);
+  pwm.setPWM(5, 0, 280); pwm.setPWM(6, 0, 490); delay(100);
+  pwm.setPWM(1, 0, 190); pwm.setPWM(2, 0, 185); delay(100);
+  pwm.setPWM(5, 0, 120); pwm.setPWM(6, 0, 595); delay(100);
+  pwm.setPWM(7, 0, 260); pwm.setPWM(4, 0, 450); delay(100);
+  pwm.setPWM(3, 0, 210); pwm.setPWM(0, 0, 190); delay(100);
+  pwm.setPWM(7, 0, 135); pwm.setPWM(4, 0, 580); delay(100);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(1, 0, 280); pwm.setPWM(2, 0, 280);
+  pwm.setPWM(3, 0, 270); delay(100);
 }
 
 void forward()
 {
-  pwm.setPWM(7, 0, 260);
-  pwm.setPWM(4, 0, 450);
-  delay(50);
-  pwm.setPWM(3, 0, 365);
-  pwm.setPWM(0, 0, 120);
-  delay(100);
-  pwm.setPWM(7, 0, 135);
-  pwm.setPWM(4, 0, 580);
-  delay(100);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(3, 0, 270);
-  pwm.setPWM(6, 0, 490);
-  pwm.setPWM(5, 0, 280);
-  delay(50);
-  pwm.setPWM(2, 0, 185);
-  pwm.setPWM(1, 0, 460);
-  delay(100);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(5, 0, 120);
-  delay(100);
-  pwm.setPWM(1, 0, 280);
-  pwm.setPWM(2, 0, 280);
+  pwm.setPWM(7, 0, 260); pwm.setPWM(4, 0, 450); delay(50);
+  pwm.setPWM(3, 0, 365); pwm.setPWM(0, 0, 120); delay(100);
+  pwm.setPWM(7, 0, 135); pwm.setPWM(4, 0, 580); delay(100);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(3, 0, 270); pwm.setPWM(6, 0, 490);
+  pwm.setPWM(5, 0, 280); delay(50);
+  pwm.setPWM(2, 0, 185); pwm.setPWM(1, 0, 460); delay(100);
+  pwm.setPWM(6, 0, 595); pwm.setPWM(5, 0, 120); delay(100);
+  pwm.setPWM(1, 0, 280); pwm.setPWM(2, 0, 280);
 }
 
 void backward()
 {
-  pwm.setPWM(5, 0, 280);
-  pwm.setPWM(6, 0, 490);
-  delay(50);
-  pwm.setPWM(1, 0, 190);
-  pwm.setPWM(2, 0, 450);
-  delay(100);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 595);
-  delay(100);
-  pwm.setPWM(1, 0, 280);
-  pwm.setPWM(2, 0, 280);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(7, 0, 260);
-  delay(50);
-  pwm.setPWM(0, 0, 390);
-  pwm.setPWM(3, 0, 140);
-  delay(100);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(7, 0, 135);
-  delay(100);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(3, 0, 270);
+  pwm.setPWM(5, 0, 280); pwm.setPWM(6, 0, 490); delay(50);
+  pwm.setPWM(1, 0, 190); pwm.setPWM(2, 0, 450); delay(100);
+  pwm.setPWM(5, 0, 120); pwm.setPWM(6, 0, 595); delay(100);
+  pwm.setPWM(1, 0, 280); pwm.setPWM(2, 0, 280); pwm.setPWM(4, 0, 450);
+  pwm.setPWM(7, 0, 260); delay(50);
+  pwm.setPWM(0, 0, 390); pwm.setPWM(3, 0, 140); delay(100);
+  pwm.setPWM(4, 0, 580); pwm.setPWM(7, 0, 135); delay(100);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(3, 0, 270);
 }
 
 void hello()
 {
-  pwm.setPWM(7, 0, 300);
-  delay(100);
-  pwm.setPWM(0, 0, 390);
-  delay(200);
-  pwm.setPWM(4, 0, 110);
-  delay(300);
-  pwm.setPWM(4, 0, 340);
-  delay(300);
-  pwm.setPWM(4, 0, 110);
-  delay(300);
-  pwm.setPWM(4, 0, 340);
-  delay(300);
-  pwm.setPWM(4, 0, 110);
-  delay(300);
-  pwm.setPWM(4, 0, 340);
-  delay(500);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(7, 0, 135);
+  pwm.setPWM(7, 0, 300); delay(100);
+  pwm.setPWM(0, 0, 390); delay(200);
+  pwm.setPWM(4, 0, 110); delay(300);
+  pwm.setPWM(4, 0, 340); delay(300);
+  pwm.setPWM(4, 0, 110); delay(300);
+  pwm.setPWM(4, 0, 340); delay(300);
+  pwm.setPWM(4, 0, 110); delay(300);
+  pwm.setPWM(4, 0, 340); delay(500);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(4, 0, 580); pwm.setPWM(7, 0, 135);
 }
 
 void come()
 {
-  pwm.setPWM(7, 0, 300);
-  delay(100);
-  pwm.setPWM(0, 0, 120);
-  pwm.setPWM(4, 0, 280);
-  delay(500);
-  pwm.setPWM(4, 0, 110);
-  delay(200);
-  pwm.setPWM(4, 0, 340);
-  delay(400);
-  pwm.setPWM(4, 0, 110);
-  delay(200);
-  pwm.setPWM(4, 0, 340);
-  delay(400);
-  pwm.setPWM(0, 0, 280);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(7, 0, 135);
+  pwm.setPWM(7, 0, 300); delay(100);
+  pwm.setPWM(0, 0, 120); pwm.setPWM(4, 0, 280); delay(500);
+  pwm.setPWM(4, 0, 110); delay(200);
+  pwm.setPWM(4, 0, 340); delay(400);
+  pwm.setPWM(4, 0, 110); delay(200);
+  pwm.setPWM(4, 0, 340); delay(400);
+  pwm.setPWM(0, 0, 280); pwm.setPWM(4, 0, 580); pwm.setPWM(7, 0, 135);
 }
 
 void dog()
 {
-  delay(300);
-  pwm.setPWM(0, 0, 120);
-  pwm.setPWM(1, 0, 460);
-  pwm.setPWM(2, 0, 450);
-  pwm.setPWM(3, 0, 140);
-  delay(300);
-  pwm.setPWM(0, 0, 390);
-  pwm.setPWM(1, 0, 190);
-  pwm.setPWM(2, 0, 185);
-  pwm.setPWM(3, 0, 365);
+  delay(300); pwm.setPWM(0, 0, 120); pwm.setPWM(1, 0, 460); pwm.setPWM(2, 0, 450); pwm.setPWM(3, 0, 140);
+  delay(300); pwm.setPWM(0, 0, 390); pwm.setPWM(1, 0, 190); pwm.setPWM(2, 0, 185); pwm.setPWM(3, 0, 365);
 }
 
 void middle()
 {
-  pwm.setPWM(7, 0, 300);
-  delay(100);
-  pwm.setPWM(0, 0, 120);
-  delay(100);
+  pwm.setPWM(7, 0, 300); delay(100);
+  pwm.setPWM(0, 0, 120); delay(100);
   pwm.setPWM(4, 0, 110);
 }
 
 void surrender()
 {
-  delay(100);
-  pwm.setPWM(4, 0, 90);
-  pwm.setPWM(5, 0, 620);
-  pwm.setPWM(6, 0, 110);
-  pwm.setPWM(7, 0, 640);
+  delay(100); pwm.setPWM(4, 0, 90); pwm.setPWM(5, 0, 620); pwm.setPWM(6, 0, 110); pwm.setPWM(7, 0, 640);
 }
 
 void swing()
 {
-  delay(50);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(7, 0, 260);
-  delay(50);
-  pwm.setPWM(0, 0, 390);
-  pwm.setPWM(3, 0, 365);
-  delay(50);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(7, 0, 135);
-  delay(50);
-  pwm.setPWM(5, 0, 280);
-  pwm.setPWM(6, 0, 490);
-  delay(50);
-  pwm.setPWM(1, 0, 190);
-  pwm.setPWM(2, 0, 185);
-  delay(50);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 595);
-  delay(500);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
-  pwm.setPWM(4, 0, 450);
-  pwm.setPWM(5, 0, 120);
-  pwm.setPWM(6, 0, 470);
-  pwm.setPWM(7, 0, 135);
-  delay(400);
-  pwm.setPWM(4, 0, 580);
-  pwm.setPWM(5, 0, 270);
-  pwm.setPWM(6, 0, 595);
-  pwm.setPWM(7, 0, 310);
-  delay(400);
+  delay(50); pwm.setPWM(4, 0, 450); pwm.setPWM(7, 0, 260);
+  delay(50); pwm.setPWM(0, 0, 390); pwm.setPWM(3, 0, 365);
+  delay(50); pwm.setPWM(4, 0, 580); pwm.setPWM(7, 0, 135);
+  delay(50); pwm.setPWM(5, 0, 280); pwm.setPWM(6, 0, 490);
+  delay(50); pwm.setPWM(1, 0, 190); pwm.setPWM(2, 0, 185);
+  delay(50); pwm.setPWM(5, 0, 120); pwm.setPWM(6, 0, 595);
+  delay(500); pwm.setPWM(4, 0, 450); pwm.setPWM(5, 0, 120);
+  pwm.setPWM(6, 0, 470); pwm.setPWM(7, 0, 135); delay(400);
+  pwm.setPWM(4, 0, 580); pwm.setPWM(5, 0, 270); pwm.setPWM(6, 0, 595);
+  pwm.setPWM(7, 0, 310); delay(400);
+  pwm.setPWM(4, 0, 450); pwm.setPWM(5, 0, 120);
+  pwm.setPWM(6, 0, 470); pwm.setPWM(7, 0, 135);
+  delay(400); pwm.setPWM(4, 0, 580); pwm.setPWM(5, 0, 270);
+  pwm.setPWM(6, 0, 595); pwm.setPWM(7, 0, 310);
+  delay(400); pwm.setPWM(4, 0, 450); pwm.setPWM(5, 0, 120);
+  pwm.setPWM(6, 0, 470); pwm.setPWM(7, 0, 135); delay(400);
+  pwm.setPWM(4, 0, 580); pwm.setPWM(5, 0, 270);
+  pwm.setPWM(6, 0, 595); pwm.setPWM(7, 0, 310);
+  delay(400); pwm.setPWM(4, 0, 450); pwm.setPWM(5, 0, 120);
+  pwm.setPWM(6, 0, 470); pwm.setPWM(7, 0, 135); delay(400);
+  pwm.setPWM(4, 0, 580); pwm.setPWM(5, 0, 270); pwm.setPWM(6, 0, 595);
+  pwm.setPWM(7, 0, 310); delay(400); pwm.setPWM(4, 0, 450);
+  pwm.setPWM(5, 0, 120); pwm.setPWM(6, 0, 470); pwm.setPWM(7, 0, 135);
+  delay(400); pwm.setPWM(4, 0, 580); pwm.setPWM(5, 0, 270);
+  pwm.setPWM(6, 0, 595); pwm.setPWM(7, 0, 310); delay(400);
+  pwm.setPWM(4, 0, 450); pwm.setPWM(5, 0, 120); pwm.setPWM(6, 0, 470);
+  pwm.setPWM(7, 0, 135); delay(400); pwm.setPWM(4, 0, 580);
+  pwm.setPWM(5, 0, 270); pwm.setPWM(6, 0, 595); pwm.setPWM(7, 0, 310); delay(400);
 }
 
 //u8g2 control the screen
@@ -619,7 +463,6 @@ void mm()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, maimenge);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -628,7 +471,6 @@ void zc()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, normale);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -637,7 +479,6 @@ void sj()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, sleepe);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -646,7 +487,6 @@ void nh()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, helloe);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -655,7 +495,6 @@ void la()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, laiyae);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -664,7 +503,6 @@ void gp()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, sajiaoe);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -673,7 +511,6 @@ void tx()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, sade);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -682,7 +519,6 @@ void yb()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, yaobaie);
   u8g2.sendBuffer();
-
   delay(20);
 }
 
@@ -691,7 +527,6 @@ void yd()
   u8g2.clearBuffer();
   u8g2.drawXBMP(0, 0, 128, 64, goe);
   u8g2.sendBuffer();
-
   delay(20);
 }
 void updating()
@@ -700,7 +535,6 @@ void updating()
   u8g2.setFont(u8g2_font_wqy12_t_chinese1);
   u8g2.drawStr(32, 32, "Updating...");
   u8g2.sendBuffer();
-
   delay(20);
 }
 ```
