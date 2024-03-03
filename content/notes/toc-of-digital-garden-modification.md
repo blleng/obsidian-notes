@@ -1,6 +1,6 @@
 ---
 date: 2023-08-28T00:36
-update: 2024-02-29874T01:065:287
+update: 2024-03-03T12:38
 tags:
   - note/2023/08
   - note/frontend
@@ -10,12 +10,15 @@ maturity: withered
 title: Modification of table of contents of digital garden
 description: Modify the digital garden for convenient table of contents
 ---
-`Obsidian`的`Digital Garden`插件将文章目录与`Graph`、`Backlink`模块一同放在`sidebar`中，在移动端难以使用。
-这里对其模板做一些改动，让文章目录与`filetree`显示在同一区域，利用`js`实现Tab切换，方便使用。
+# Overview
+The community plugin `Digital Garden` of Obsidian has a layout that `Table of Content`, `Graph` and `Backlink` modules are all put in the `sidebar` part. It's inconvenient to refer to table of content at mobile devices.
+Here, we can apply some modifications to display the `toc` and `fileTree` together in navigation bar, thus it's easy for us to check the table of content at mobile devices.
 
-# Details
-首先删除`src/site/_include/components/sidebar.njk`文件中关于目录的代码：
-```diff 
+# Modification Process
+## Delete previous toc
+Delete `toc` in `sidebar`.
+
+```diff title="src/site/_include/components/sidebar.njk"
 - {%if settings.dgShowToc === true%}
 - {%set tocHtml= (content and (content\|toc)) %}
 - {%if tocHtml %}
@@ -33,8 +36,10 @@ description: Modify the digital garden for convenient table of contents
 - {%endif%}
 ```
 
-在`src/site/_include/components/filetree.njk`文件中做如下修改：
-```diff
+## Add toc in file tree
+Add codes in `filetree` file.
+
+```diff title="src/site/_include/components/filetree.njk"
  <div class="folder" x-data="{isOpen: true}">
 +    <div class="sidebar-nav">
 +        <ul>
@@ -70,8 +75,10 @@ description: Modify the digital garden for convenient table of contents
  </div>
 ```
 
-在`src/site/styles/custom-style.scss`中添加以下样式：
-```css
+## Styles of navigation bar
+Add some necessary styles.
+
+```css title="src/site/styles/custom-style.scss"
 li.current {
     border-bottom: 1px solid;
 }
@@ -90,8 +97,14 @@ li.current {
 }
 ```
 
-在`src/site/_include/layouts`文件夹的两个`.njk`文件的`</html>`标签前添加：
-```diff
+
+>[!tip] Important
+>The styles here can only provide most basic functions for proper use. You shall modify the file for more elegant display.
+
+## Javascript to control toc
+Add necessary `js` code to control toc.
+
+```diff title="src/site/_include/layouts"
 	</body>
 +	<script>
 +	var lis = document.querySelectorAll('div.sidebar-nav li');
@@ -113,9 +126,6 @@ li.current {
 +	</script>
 	</html>
 ```
-
->[!tip] Important
->这里给出的样式文件仅保证您能完成文件树和目录切换的基础功能，此外还需根据您的实际情况对样式文件中有关目录和文件树的样式进行修改才行做到更好的呈现。
 
 # Showcase
 ![toc1](https://cdn.freezing.cool/images/202308280119703.png)
