@@ -7,7 +7,7 @@ update: 2024-02-29T04:31
 title: Flashes Collection
 ---
 
-| Flashes                                                               | Info                       |
-| --------------------------------------------------------------------- | -------------------------- |
-| [[flashes/approaches-to-correcting-the-false-belief.md\|错误信念的有效纠正机制]] | 当信念与事实出现差异，是否存在一个机制对其进行纠正？ |
+| Flashes                                                                                                             | Info                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [[flashes/approaches-to-correcting-the-false-belief.md\|An efficacious mechanism for rectifying erroneous beliefs]] | When disparities occur between beliefs and facts, if there's a mechanism to rectifying erroneous beliefs? |
 
