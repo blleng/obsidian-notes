@@ -4,10 +4,10 @@ tags:
 author: 沈至
 cover: https://cdn.freezing.cool/images/202402171426515.jpg
 date: 2024-02-14T20:11
-update: 2024-03-03T13:46
+update: 2024-03-08T20:18
 douban: https://book.douban.com/subject/36527880/
 dg-publish: true
-maturity: raindrop
+maturity: tree
 title: 寻找踏水村指南
 ---
 >[!info] Brief Info
