@@ -1,6 +1,6 @@
 ---
 tags:
-  - paper/unviewed/humanities/philosophy/epistemology
+  - paper/viewed/humanities/philosophy/epistemology
 dg-publish: true
 maturity: tree
 Journal: 社会科学报
