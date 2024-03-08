@@ -2,7 +2,7 @@
 tags:
   - paper/viewed/sciences/chemistry/simulation
 dg-publish: true
-maturity: raindrop
+maturity: tree
 Journal: Applied Surface Science
 Year: 2012
 DOI: 10.1016/j.apsusc.2011.05.122
