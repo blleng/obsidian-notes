@@ -4,11 +4,11 @@ tags:
   - paper/viewed/sciences/chemistry/synergy
 Journal: Journal of the American Chemical Society
 dg-publish: true
-maturity: raindrop
+maturity: tree
 Year: 2023
 DOI: 10.1021/jacs.2c10435
 date: 2023-08-26T00:59
-update: 2024-02-297T04385:124:320
+update: 2024-032-2T907T504385:124:320
 title: Two-way synergy of dual sites enhances RWGS reaction
 ---
 
