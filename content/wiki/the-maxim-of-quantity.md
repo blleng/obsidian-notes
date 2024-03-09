@@ -2,7 +2,7 @@
 title: The maxim of quantity
 description: One of the conversational maxims proposed by H.P. Grice relating to the amount of information provided in conversations.
 date: 2024-03-08T21:05
-update: 2024-03-09T11:24
+update: 2024-03-09T11:29
 tags:
   - wiki/linguistics
   - wiki/pragmatics
@@ -12,7 +12,7 @@ maturity: sapling
 ---
 # Definition
 
-H.P. Grice (1975):
+H.P. Grice (1975):  
 When engaged in conversation, the Maxim of Quantity requires you to:
 - Make your contribution as informative as is required (for the purpose of the exchanges).
 - Do not make your contribution more informative than is required.
@@ -27,18 +27,18 @@ When engaged in conversation, the Maxim of Quantity requires you to:
 
 ## Contribute as much information as is required
 
-*Alice: Bob, can I have John's number?*
+*Alice: Bob, can I have John's number?*  
 *Bob: Yes.* (Less information is provided than is required.)
 
-Despite his positive answer, we find Bob’s behavior weird. Why?
+Despite his positive answer, we find Bob’s behavior weird. Why?  
 Because the Maxim is violated.
 
 ## Contribute only as much information as is required
 
-*Alice: Do you have the time?*
+*Alice: Do you have the time?*  
 *Bob: Yes, it's 9:30.*
 
-One finds this normal. Why?
+One finds this normal. Why?  
 Because the Maxim is observed
 
 Given the purpose of the conversation, the man contributes only as much information as is required:
@@ -49,17 +49,17 @@ Given the purpose of the conversation, the man contributes only as much informat
 
 Deliberate and apparent violation of maxims is called **flouting**.
 
-*Alice: Bob, can I have John's number?*
+*Alice: Bob, can I have John's number?*  
 *Bob: Yes.*
 
-In a case such as this, one might infer that Bob doesn’t have the number with her and will supply it later. Why?
+In a case such as this, one might infer that Bob doesn’t have the number with her and will supply it later. Why?  
 Because we do not expect the Maxim to be violated, the apparent violation must be motivated.
 
 # Implicatures
 
 Inferences obtained from flouting of maxims are called **implicatures**.
 
-*Alice: Bob, can I have John's number?*
+*Alice: Bob, can I have John's number?*  
 *Bob: Yes.*
 
  Bob may be implicating that
