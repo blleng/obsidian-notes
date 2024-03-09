@@ -4,7 +4,7 @@ description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-03-03T14:13
+update: 2024-03-09T11:04
 ---
 ```poetry
 Everything begins to look around.
@@ -34,7 +34,7 @@ Principally, my garden is divided into 6 parts including **Flashes**, **Notes**,
 | [[readings\|Readings]]    | This part is the collection of my readings (e.g. Books, papers, magazines or other materials). Contents here can be the origin of "Flashes" and finally the nutrition of my works.                                                                                                        |
 | [[projects\|Open Source]] | This part is the collection of my open-source programs.                                                                                                                                                                                                                                   |
 | [[writings\|Writings]]    | My literature works and output of thoughts are put here.                                                                                                                                                                                                                                  |
-| Wiki                      | Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.                                                                                                                                 |
+| [[wiki\|Wiki]]            | Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.                                                                                                                                 |
 
 ```poetry
 Wish you a pleasant journey!
