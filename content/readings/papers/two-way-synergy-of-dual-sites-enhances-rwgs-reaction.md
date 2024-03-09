@@ -2,13 +2,14 @@
 tags:
   - paper/viewed/sciences/chemistry/bimetallic
   - paper/viewed/sciences/chemistry/synergy
+  - paper/unviewed/sciences/chemistry/catalysis
 Journal: Journal of the American Chemical Society
 dg-publish: true
 maturity: tree
 Year: 2023
 DOI: 10.1021/jacs.2c10435
 date: 2023-08-26T00:59
-update: 2024-032-2T907T504385:124:320
+update: 2024-03-09T22:05
 title: Two-way synergy of dual sites enhances RWGS reaction
 ---
 
