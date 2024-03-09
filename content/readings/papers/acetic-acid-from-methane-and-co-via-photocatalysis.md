@@ -1,14 +1,15 @@
 ---
 tags:
-  - paper/viewed/sciences/chemistry/photocatalysis
-  - paper/viewed/sciences/chemistry/oxidation
+  - paper/viewed
+  - paper/sciences
+  - paper/photocatalysis
 Journal: Journal of the American Chemical Society
 dg-publish: true
 maturity: tree
 Year: 2023
 DOI: 10.1021/jacs.2c10840
 date: 2023-08-26T00:55
-update: 2024-03-08T20:25
+update: 2024-03-09T22:21
 title: Acetic acid from methane and CO via photocatalysis
 ---
 
