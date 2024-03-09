@@ -4,16 +4,19 @@ description: Moontains - My digital garden
 dg-publish: true
 title: 山月记
 date: 2023-08-26T14:49
-update: 2024-03-09T11:04
+update: 2024-03-09T11:44
 ---
 ```poetry
-Everything begins to look around.
-We walk in the sun in hundreds.
+He construido un jardín como quien hace  
+los gestos correctos en el lugar errado.  
+Errado, no de error, sino de lugar otro,  
+como hablar con el reflejo del espejo  
+y no con quien se mira en él.  
+He construido un jardín para dialogar  
+allí, codo a codo en la belleza, con la siempre  
+muda pero activa muerte trabajando el corazón.
 
-Each man is a half-open door
-leading to a room for everyone.
-
-——Tomas Tranströmer, "The Half-Finished Heaven"
+——Diana Bellessi, "He construido un jardín"
 ```
 
 ```poetry
