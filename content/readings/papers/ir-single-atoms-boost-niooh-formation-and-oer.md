@@ -7,9 +7,9 @@ maturity: raindrop
 Journal: Journal of the American Chemical Society
 Year: 2024
 DOI: 10.1021/jacs.3c13746
-title: Ir single atoms boost metal–oxygen covalency on NiOOH for enhanced OER activity
+title: Ir single atoms boost active NiOOH formation and enhanced OER activity
 date: 2024-03-09T15:13
-update: 2024-03-09T22:06
+update: 2024-03-09T22:11
 ---
 
 Ir Single Atoms Boost Metal–Oxygen Covalency on Selenide-Derived NiOOH for Direct Intramolecular Oxygen Coupling
