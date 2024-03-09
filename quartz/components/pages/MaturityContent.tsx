@@ -63,7 +63,7 @@ function MaturityContent(props: QuartzComponentProps) {
                 title = "Sprouts"
                 break
               case "sapling":
-                content = "Saplings have a substantial amount of content, they may show periodical developmet derived from seedlings or fertilizer."
+                content = "Saplings have a substantial amount of content, they may show periodical developmet derived from sprouts or raindrops."
                 title = "Saplings"
                 break
               case "tree":
