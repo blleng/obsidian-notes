@@ -1,7 +1,9 @@
 ---
 tags:
-  - paper/unviewed/sciences/chemistry/electrocatalysis
-  - paper/unviewed/sciences/chemistry/phase-transition
+  - paper/unviewed
+  - paper/sciences
+  - paper/phase-transition
+  - paper/electrocatalysis
 dg-publish: true
 maturity: raindrop
 Journal: Journal of the American Chemical Society
@@ -9,7 +11,7 @@ Year: 2024
 DOI: 10.1021/jacs.3c13746
 title: Ir single atoms boost active NiOOH formation and enhanced OER activity
 date: 2024-03-09T15:13
-update: 2024-03-09T22:11
+update: 2024-03-09T22:19
 ---
 
 Ir Single Atoms Boost Metal–Oxygen Covalency on Selenide-Derived NiOOH for Direct Intramolecular Oxygen Coupling
