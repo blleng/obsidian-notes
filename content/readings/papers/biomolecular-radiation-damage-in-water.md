@@ -1,13 +1,15 @@
 ---
 tags:
-  - paper/unviewed/sciences/chemistry/radiation/ionization
+  - paper/unviewed
+  - paper/sciences
+  - paper/radiation
 dg-publish: true
 maturity: raindrop
 Journal: Nature Chemistry
 Year: 2023
 DOI: 10.1038/s41557-023-01302-1
 date: 2023-09-02T01:35
-update: 2024-02-297006091T4454:3333393380012T2127:24
+update: 2024-03-09T22:20
 title: Biomolecular radiation damage in water
 ---
 
