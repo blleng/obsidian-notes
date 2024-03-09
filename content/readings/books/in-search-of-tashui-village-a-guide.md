@@ -1,10 +1,11 @@
 ---
 tags:
-  - book/finished/poem
+  - book/finished
+  - book/poem
 author: 沈至
 cover: https://cdn.freezing.cool/images/202402171426515.jpg
 date: 2024-02-14T20:11
-update: 2024-03-08T20:18
+update: 2024-03-098T2:2230:18
 douban: https://book.douban.com/subject/36527880/
 dg-publish: true
 maturity: tree
