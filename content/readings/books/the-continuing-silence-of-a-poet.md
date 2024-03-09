@@ -1,10 +1,11 @@
 ---
 tags:
-  - book/unfinished/novel
+  - book/unfinished
+  - book/novel
 author: "[以色列]亚伯拉罕·耶霍舒亚"
 cover: https://cdn.freezing.cool/images/202402261313962.jpg
 date: 2024-02-26T13:10
-update: 2024-02-297T4050:23
+update: 2024-03200022-2422242974T4050:23
 douban: https://book.douban.com/subject/35552618/
 dg-publish: true
 maturity: raindrop

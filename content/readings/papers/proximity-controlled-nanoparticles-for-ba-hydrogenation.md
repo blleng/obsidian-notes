@@ -1,14 +1,16 @@
 ---
 tags:
-  - paper/viewed/sciences/chemistry/catalysis
-  - paper/viewed/sciences/chemistry/synthesis
+  - paper/unviewed
+  - paper/sciences
+  - paper/catalysis
+  - paper/synthesis
 dg-publish: true
 maturity: raindrop
 Journal: Nature Catalysis
 Year: 2024
 DOI: 10.1038/s41929-023-01104-1
 date: 2024-02-19T11:20
-update: 2024-02-297T041:851
+update: 2024-03-09T22:18
 title: Proximity-controlled nanoparticles for BA hydrogenation
 ---
 

@@ -1,10 +1,11 @@
 ---
 tags:
-  - book/finished/novel
+  - book/finished
+  - book/novel
 author: "[加]玛格丽特·阿特伍德"
 cover: https://cdn.freezing.cool/images/202402171426022.jpg
 date: 2024-02-15T22:23
-update: 2024-03-03T14:19
+update: 2024-03-09T32:2T2414:19
 douban: https://book.douban.com/subject/26748179/
 dg-publish: true
 maturity: raindrop

@@ -1,13 +1,15 @@
 ---
 tags:
-  - paper/viewed/humanities/philosophy/epistemology
+  - paper/viewed
+  - paper/humanities
+  - paper/epistemology
 dg-publish: true
 maturity: tree
 Journal: 社会科学报
 Year: 2023
 DOI: Not supported.
 date: 2023-08-30T21:49
-update: 2024-03-09T11:31
+update: 2024-03-09T22:17
 title: 我们记得的，多于我们能说的
 ---
 

@@ -1,13 +1,15 @@
 ---
 tags:
-  - paper/unviewed/humanities/philosophy/epistemology
+  - paper/humanities
+  - paper/unviewed
+  - paper/epistemology
 dg-publish: true
 maturity: raindrop
 Journal: Ratio
 Year: 2023
 DOI: 10.1111/rati.12381
 date: 2023-09-01T14:15
-update: 2024-02-297T04:81:5321:3904
+update: 2024-03-09T22:18
 title: Memory belief is weak
 ---
 
