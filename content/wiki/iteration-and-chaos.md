@@ -2,10 +2,9 @@
 title: Iteration and chaos
 description: A brief introduction to iteration and chaos
 date: 2024-05-26T14:18
-update: 2024-05-26T23:04
+update: 2024-05-26T23:07
 tags:
   - wiki/mathematics
-  - wiki/complex-system
   - wiki/computational-physics
 id: wiki20240526141811
 dg-publish: true
