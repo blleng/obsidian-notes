@@ -2,6 +2,7 @@
 title: Iteration and chaos
 description: A brief introduction to iteration and chaos
 date: 2024-05-26T14:18
+Digital-Garden-5-29-2024
 update: 2024-05-29T14:55
 tags:
   - wiki/mathematics
