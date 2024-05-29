@@ -2,7 +2,8 @@
 title: Iteration and chaos
 description: A brief introduction to iteration and chaos
 date: 2024-05-26T14:18
-update: 2024-05-29T14:54
+Digital-Garden-5-29-2024
+update: 2024-05-29T14:55
 tags:
   - wiki/mathematics
   - wiki/computational-physics
@@ -16,6 +17,7 @@ If a physical quantity is involved in the expression of itself :
 $$
 f(x)=x \tag{1-1}
 $$
+
 Iterative methods are usually employed for solving it.
 
 ## Direct iterative method
