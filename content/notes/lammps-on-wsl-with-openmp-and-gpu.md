@@ -2,10 +2,10 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-18T19:21
+update: 2024-08-18T19:26
 tags:
   - note/2024/08
-  - note/software/md
+  - note/molecular-dynamics
 id: note20240818141130
 dg-publish: true
 maturity: tree
