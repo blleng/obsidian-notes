@@ -2,7 +2,7 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-18T19:26
+update: 2024-08-18T19:36
 tags:
   - note/2024/08
   - note/molecular-dynamics
@@ -181,5 +181,5 @@ write_data npt_equilibrium10ps.data
 
 The results:
 
-![wall-time](https://cdn.freezing.cool/images/202408181902403.jpg)
+![wall-time|450](https://cdn.freezing.cool/images/202408181902403.jpg)
 The computation efficiency using OpenMP and GPU is much beter than the ordinary setup. But using GPU with multi-processes and muti-threads may lead to decreased efficiency due to the increased cost of CPU communication.
