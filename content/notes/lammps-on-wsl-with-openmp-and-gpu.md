@@ -2,7 +2,7 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-18T21:27
+update: 2024-08-19T02:44
 tags:
   - note/2024/08
   - note/molecular-dynamics
@@ -15,7 +15,7 @@ Though LAMMPS provides pre-built packages for Windows, the computational efficie
 # Device Infomation
 Here's the information of hardwares and environments of my machine:
 
-- CPU: 13th Gen Intel(R) Core(TM) i7-13650HX
+- CPU: 13th Gen Intel(R) Core(TM) i7-13650HX (14 cores, 20 threads)
 - GPU: NVIDIA GeForce RTX 4060 Laptop GPU
 - OS: Ubuntu 22.04 (WSL2 on Windows 11 23H2)
 
