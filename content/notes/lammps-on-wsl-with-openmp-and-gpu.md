@@ -2,7 +2,7 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-18T19:43
+update: 2024-08-18T21:24
 tags:
   - note/2024/08
   - note/molecular-dynamics
@@ -81,7 +81,7 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-3 ## CUDA Version 12.3
 ```
 
-Add cuda into `PATH`, in the `~/.bashrc` file:
+Add the CUDA folder (usually at /usr/local/cuda-xx.x/) into `PATH`, in the `~/.bashrc` file:
 
 ```bash
 export PATH=$PATH:/usr/local/cuda-12.3/bin  ## For CUDA Version 12.3
@@ -132,7 +132,7 @@ make -j
 
 Besides these packages, [additional packages](https://docs.lammps.org/Packages_list.html) can be installed if you need.
 
-The compiled excutable file can be found in this `build` folder if the process goes properly, and this folder can be added into `PATH` for convenient use. In the `~/.bashrc` file:
+The compiled excutable file can be found in this `build` folder if the process goes properly. This folder can be added into `PATH` for convenience. In the `~/.bashrc` file:
 
 ```bash
 export PATH=$PATH:/path_to_home/lammps-2Aug2023/build
