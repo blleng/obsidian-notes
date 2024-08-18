@@ -2,7 +2,7 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-18T21:24
+update: 2024-08-18T21:27
 tags:
   - note/2024/08
   - note/molecular-dynamics
@@ -136,7 +136,7 @@ The compiled excutable file can be found in this `build` folder if the process g
 
 ```bash
 export PATH=$PATH:/path_to_home/lammps-2Aug2023/build
-export OMP_NUM_THREADS=2 ## Preset the OpenMP threads per MPI task
+export OMP_NUM_THREADS=2 ## Preset the number of OpenMP threads per MPI task
 ```
 
 # Bench Test
