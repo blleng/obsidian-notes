@@ -2,7 +2,7 @@
 title: Compiling LAMMPS on WSL with OpenMP and GPU acceleration
 description: Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration
 date: 2024-08-18T14:11
-update: 2024-08-19T02:44
+update: 2024-08-25T00:04
 tags:
   - note/2024/08
   - note/molecular-dynamics
@@ -10,7 +10,7 @@ id: note20240818141130
 dg-publish: true
 maturity: tree
 ---
-Though LAMMPS provides pre-built packages for Windows, the computational efficiency can hardly meet the demands of large-scale molecular dynamics (MD). A proper strategy to conduct MD on personal computers with Windows systems is to run LAMMPS on Windows Subsystem for Linux (WSL). This article records the process that I compiled LAMMPS with OpenMP and GPU acceleration on WSL2.
+Though LAMMPS provides pre-built packages for Windows, the computational efficiency can hardly meet the requirements of large-scale molecular dynamics (MD). A proper strategy to conduct MD on personal computers with Windows systems is to run LAMMPS on Windows Subsystem for Linux (WSL). This article records the process that I compiled LAMMPS with OpenMP and GPU acceleration on WSL2.
 
 # Device Infomation
 Here's the information of hardwares and environments of my machine:
