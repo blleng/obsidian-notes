@@ -4,12 +4,12 @@ tags:
   - project/image-processing
   - project/sci-tools
 github: https://github.com/blleng/convert-emd
-document: "Pypi page: https://pypi.org/project/convert-emd"
+document: https://pypi.org/project/convert-emd
 dg-publish: true
 maturity: tree
 index: "2"
 date: 2024-09-09T06:42
-update: 2024-09-09T06:50
+update: 2024-09-09T06:53
 title: A tool for converting EMD (Velox) data into images - Convert EMD
 ---
 # Convert EMD
