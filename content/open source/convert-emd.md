@@ -9,7 +9,7 @@ dg-publish: true
 maturity: tree
 index: "1"
 date: 2024-09-09T06:42
-update: 2024-09-10T12:22
+update: 2024-09-10T12:28
 title: A tool for converting EMD (Velox) data into images - Convert EMD
 ---
 # Convert EMD
@@ -96,7 +96,9 @@ NOTICE: Three arguments are required to specify the position and width of scale 
 
 Default colors of elemental mapppings are corresponding to the following list in sequnce (*Matplotlib* default colors):
 
+{%raw%}
 <font color=#1f77b4>\#1f77b4</font>, <font color=#ff7f0e>\#ff7f0e</font>, <font color=#2ca02c>\#2ca02c</font>, <font color=#d62728>\#d62728</font>, <font color=#9467bd>\#9467bd</font>, <font color=#8c564b>\#8c564b</font>, <font color=#e377c2>\#e377c2</font>, <font color=7f7f7f>\#7f7f7f</font>, <font color=#bcbd22>\#bcbd22</font>, <font color=#17becf>\#17becf</font>
+{%endraw%}
 
 Convert-EMD provides `-e`/`--eds` option for users to customize the color of elemental mappings.
 
