@@ -6,9 +6,9 @@ dg-publish: true
 maturity: tree
 github: https://github.com/blleng/hexo-theme-lx/
 document: https://lx.js.org
-index: "1"
+index: "2"
 date: 2023-08-27T00:38
-update: 2024-03200022-2522252975T4051:27
+update: 2024-09-09T12:55
 title: A theme designed for Hexo - Hexo-Theme-Lx
 ---
 
