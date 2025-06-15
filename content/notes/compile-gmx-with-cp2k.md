@@ -1,8 +1,8 @@
 ---
-title: Compiling Gromacs with CP2K for QM/MM simulation
+title: Compiling Gromacs with CP2K for QM\/MM simulation
 description: Recording the process of compiling Gromacs for QM/MM simulation with CP2K
 date: 2025-06-15T18:49
-update: 2025-06-16T00:08
+update: 2025-06-16T00:15
 tags:
   - note/2025/06
   - note/molecular-dynamics
