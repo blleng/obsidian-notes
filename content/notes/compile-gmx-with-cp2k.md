@@ -2,7 +2,7 @@
 title: Compiling Gromacs with CP2K for QM/MM simulation
 description: Recording the process of compiling Gromacs for QM/MM simulation with CP2K
 date: 2025-06-15T18:49
-update: 2025-06-16T00:01
+update: 2025-06-16T00:08
 tags:
   - note/2025/06
   - note/molecular-dynamics
@@ -55,7 +55,7 @@ cd fftw-3.3.10/
 sudo make -j 12 install
 ```
 
-Similarly, that the installation directory `/opt/fftw3310` can be located anywhere you prefer.
+Similarly, the installation directory `/opt/fftw3310` can be located anywhere you prefer.
 
 After installation, add `fftw` library into `PATH` by editting `~/.bashrc` :
 ``` bash ~/.bashrc
@@ -139,7 +139,7 @@ cmake .. -DCMAKE_PREFIX_PATH=/opt/fftw3310 \
 -DMPI_Fortran_COMPILER=/opt/openmpi411/bin/mpif90
 ```
 
-`-DGMX_BLAS_USER` and `-DGMX_LAPACK_USER` options specify the library for `BLAS` and `LAPACK`. `libopenblas` provides both of them.
+`-DGMX_BLAS_USER` and `-DGMX_LAPACK_USER` options specify the library for `BLAS` and `LAPACK`, which are provided by `libopenblas`.
 
 `-DCP2K_LINKER_FLAGS` option specifies libraries which should be compatible with those used for the compilation of CP2K. Specifically, you can find them in the `/path/to/cp2k/tools/toolchain/install/arch/local.psmp` file:
 ```
@@ -147,7 +147,7 @@ LDFLAGS     =  $(FCFLAGS) ...
 LIBS        = ...
 ```
 
-`-DMPI_C_COMPILER`, `-DMPI_C_COMPILER` and `-DMPI_Fortran_COMPILER` specify comilers used for compilation. You should specify them if there're multiple compilers for MPI compiling.
+`-DMPI_C_COMPILER`, `-DMPI_C_COMPILER` and `-DMPI_Fortran_COMPILER` specify comilers used for compilation. You should specify them if there're multiple compilers for MPI compiling in your machine.
 
 Compile Gromacs:
 ```bash
@@ -163,6 +163,8 @@ source /path/to/gromacs/bin/GMXRC
 export PATH=$PATH:/path/to/gromacs/bin
 ```
 
-Enjoy QM/MM simulation with Gromacs and CP2K!
+```poetry
+Just enjoy QM/MM simulation with Gromacs and CP2K!
+```
 
 [^1]: See Gromacs Manual "[Hybrid Quantum-Classical simulations (QM/MM) with CP2K interface](https://manual.gromacs.org/current/reference-manual/special/qmmm.html)"
