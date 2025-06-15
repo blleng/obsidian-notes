@@ -10,7 +10,7 @@ This page is a collection of all notes about records of history, conclusion or d
 
 | Notes                                                                                                            | Info                                                                              |
 | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [[notes/compile-gmx-with-cp2k.md\|Compiling Gromacs with CP2K for QM\/MM simulation]]                            | Recording the process of compiling Gromacs for QM/MM simulation with CP2K         |
+| [[notes/compile-gmx-with-cp2k.md\|Compiling Gromacs with CP2K for QMMM simulation]]                              | Recording the process of compiling Gromacs for QMMM simulation with CP2K          |
 | [[notes/maturity-identification.md\|Maturity systems of my digital garden]]                                      | Constructing a maturity systems for my notes in digital garden                    |
 | [[notes/lammps-on-wsl-with-openmp-and-gpu.md\|Compiling LAMMPS on WSL with OpenMP and GPU acceleration]]         | Recording the process of compiling LAMMPS on WSL with OpenMP and GPU acceleration |
 | [[notes/mqtt-communication-of-esp8266.md\|Wechat mini-program control the ESP8266 robot via MQTT communication]] | Control ESP8266-developed robot by wechat mini program via mqtt                   |
