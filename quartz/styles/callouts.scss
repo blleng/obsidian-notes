@@ -112,7 +112,9 @@
     --color: var(--secondary);
     --border: var(--lightgray);
     --callout-icon: var(--callout-icon-quote);
-    rotate: 180deg;
+    .callout-title .callout-icon {
+      rotate: 180deg;
+    }
   }
 
   &.is-collapsed > .callout-title > .fold-callout-icon {
