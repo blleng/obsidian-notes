@@ -5,7 +5,7 @@ tags:
 author: "[法]伊曼努尔·列维纳斯"
 cover: https://cdn.freezing.cool/images/202402261326470.jpg
 date: 2024-02-26T13:21
-update: 2025-06-15T20:07
+update: 2025-06-15T20:15
 douban: https://book.douban.com/subject/34940791/
 dg-publish: true
 maturity: raindrop
@@ -22,3 +22,10 @@ title: 时间与他者
 >Douban Reading: https://book.douban.com/subject/34940791/
 
 本书由列维纳斯的四次讲座演化而来，是作者早期和中期两本重要代表作《从存在到存在者》和《总体与无限》之间的过渡。在本书中，列维纳斯进一步阐述了时间在与他者的关系中的生成，时间性即社会关系本身这一在《从存在到存在者》中就已显现的思想。列维纳斯的思想艰深、语言晦涩，但本书的结构却很具系统性，逻辑层次的推进也非常清楚，相比于他的其他著作，本书确是入门的最佳选择之一。
+
+# After Reading
+
+>[!quote] 在我们看来
+>谈论一种在孤单的主体之中的时间，或者谈论一种存粹的个人化的绵延，是不可能的。[^1]
+
+[^1]: 伊曼努尔·列维纳斯《时间与他者》
