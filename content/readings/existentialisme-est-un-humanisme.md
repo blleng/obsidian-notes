@@ -6,7 +6,7 @@ title: 存在主义是一种人道主义
 author: "[法]让-保罗·萨特"
 cover: https://cdn.freezing.cool/images/202403051223853.jpg
 date: 2024-03-05T12:20
-update: 20254-6013-009085T2::2221:53
+update: 2025-06-15T22:35
 douban: https://book.douban.com/subject/10608319/
 dg-publish: true
 maturity: raindrop

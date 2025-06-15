@@ -5,7 +5,7 @@ tags:
 author: "[加]玛格丽特·阿特伍德"
 cover: https://cdn.freezing.cool/images/202402171426022.jpg
 date: 2024-02-15T22:23
-update: 2024-03-09T32:2T2414:19
+update: 2025-06-15T22:34
 douban: https://book.douban.com/subject/26748179/
 dg-publish: true
 maturity: raindrop
@@ -25,7 +25,7 @@ title: 盲刺客
 
 # After Reading
 
->[!quote]我想从你那里得到什么呢？
+>[!quote] 我想从你那里得到什么呢？
 >不是爱，因为这个要求过分了。不是原谅，因为那不是你能赐予的。或许只是一名听众，只是一个愿意看望我的人。不过，无论你还要做什么，不要美化我；我并不希望做一具装饰过的颅骨。[^1]
 
 [^1]: 摘自玛格丽特·阿特伍德《盲刺客》
