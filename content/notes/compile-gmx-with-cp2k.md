@@ -2,7 +2,7 @@
 title: Compiling Gromacs with CP2K for QMMM simulation
 description: Recording the process of compiling Gromacs for QMMM simulation with CP2K
 date: 2025-06-15T18:49
-update: 2025-06-16T00:175
+update: 2025-06-16T13:07
 tags:
   - note/2025/06
   - note/molecular-dynamics
@@ -119,7 +119,7 @@ Here, I use Gromacs version `2024.2`. The compilation process for Gromacs is muc
 ``` bash
 cd /path/to/gromacs
 mkdir build
-cd build\
+cd build/
 cmake .. -DCMAKE_PREFIX_PATH=/opt/fftw3310 \
 -DCMAKE_INSTALL_PREFIX=/path/to/gromacs/ \
 -DBUILD_SHARED_LIBS=OFF \
