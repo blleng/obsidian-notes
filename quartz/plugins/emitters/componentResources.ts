@@ -205,7 +205,7 @@ export const ComponentResources: QuartzEmitterPlugin<Options> = (opts?: Partial<
         } else {
           let match
 
-          const fontSourceRegex = /url\((https:\/\/fonts.gstatic.font.im\/s\/[^)]+\.(woff2|ttf))\)/g
+          const fontSourceRegex = /url\((https:\/\/gstatic.loli.net\/s\/[^)]+\.(woff2|ttf))\)/g
 
           googleFontsStyleSheet = await (
             await fetch(googleFontHref(ctx.cfg.configuration.theme))
