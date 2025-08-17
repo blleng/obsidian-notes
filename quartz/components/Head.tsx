@@ -23,8 +23,8 @@ export default (() => {
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && (
           <>
-            <link rel="preconnect" href="https://fonts.font.im" />
-            <link rel="preconnect" href="https://fonts.gstatic.font.im" />
+            <link rel="preconnect" href="https://fonts.loli.net" />
+            <link rel="preconnect" href="https://gstatic.loli.net" />
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
