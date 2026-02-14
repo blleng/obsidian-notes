@@ -3,7 +3,7 @@ index: "1"
 dg-publish: true
 maturity: guideboard
 date: 2023-08-25T23:56
-update: 2025-06-15T20:08
+update: 2026-02-14T23:21
 title: Readings Collection
 ---
 This page is a collection of my readings.
@@ -17,9 +17,10 @@ This page is a collection of my readings.
 
 
 ## Finished Reading
-| Cover                                                     | Book                                                         | Author       | Douban                                              |
-| --------------------------------------------------------- | ------------------------------------------------------------ | ------------ | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402171426515.jpg) | [[readings/in-search-of-tashui-village-a-guide.md\|寻找踏水村指南]] | 沈至           | [Douban](https://book.douban.com/subject/36527880/) |
-| ![](https://cdn.freezing.cool/images/202402171426022.jpg) | [[readings/the-blind-assassin.md\|盲刺客]]                      | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
-| ![](https://cdn.freezing.cool/images/202402261326470.jpg) | [[readings/time-and-the-others.md\|时间与他者]]                   | [法]伊曼努尔·列维纳斯 | [Douban](https://book.douban.com/subject/34940791/) |
+| Cover                                                       | Book                                                         | Author       | Douban                                              |
+| ----------------------------------------------------------- | ------------------------------------------------------------ | ------------ | --------------------------------------------------- |
+| ![](https://cdn.freezing.cool/images/202402171426022.jpg)   | [[readings/the-blind-assassin.md\|盲刺客]]                      | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
+| ![](https://cdn.freezing.cool/images/202402261326470.jpg)   | [[readings/time-and-the-others.md\|时间与他者]]                   | [法]伊曼努尔·列维纳斯 | [Douban](https://book.douban.com/subject/34940791/) |
+| ![](https://cdn.freezing.cool/images/202402171426515.jpg)   | [[readings/in-search-of-tashui-village-a-guide.md\|寻找踏水村指南]] | 沈至           | [Douban](https://book.douban.com/subject/36527880/) |
+| ![](https://cdn.freezing.cool/images/20260214231918019.jpg) | [[readings/flowers-for-algernon.md\|献给阿尔吉侬的花束]]              | [美] 丹尼尔·凯斯   | [Douban](https://book.douban.com/subject/35989392/) |
 
