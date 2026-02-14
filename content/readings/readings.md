@@ -3,7 +3,7 @@ index: "1"
 dg-publish: true
 maturity: guideboard
 date: 2023-08-25T23:56
-update: 2026-02-14T23:21
+update: 2026-02-15T00:18
 title: Readings Collection
 ---
 This page is a collection of my readings.
@@ -16,7 +16,7 @@ This page is a collection of my readings.
 | ![](https://cdn.freezing.cool/images/202403051223853.jpg) | [[readings/existentialisme-est-un-humanisme.md\|存在主义是一种人道主义]] | [法]让-保罗·萨特     | [Douban](https://book.douban.com/subject/10608319/) |
 
 
-## Finished Reading
+# Finished Reading
 | Cover                                                       | Book                                                         | Author       | Douban                                              |
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------ | --------------------------------------------------- |
 | ![](https://cdn.freezing.cool/images/202402171426022.jpg)   | [[readings/the-blind-assassin.md\|盲刺客]]                      | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
