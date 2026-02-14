@@ -6,10 +6,10 @@ title: 献给阿尔吉侬的花束
 author: "[美] 丹尼尔·凯斯"
 cover: https://cdn.freezing.cool/images/20260214231918019.jpg
 date: 2026-02-14T22:31
-update: 2026-02-15T00:40
+update: 2026-02-15T00:44
 douban: https://book.douban.com/subject/35989392/
 dg-publish: true
-maturity: raindrop
+maturity: tree
 ---
 >[!info] Brief Info
 >作者: [[美] 丹尼尔·凯斯](https://book.douban.com/author/298965)  
