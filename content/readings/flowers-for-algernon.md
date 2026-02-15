@@ -6,7 +6,7 @@ title: 献给阿尔吉侬的花束
 author: "[美] 丹尼尔·凯斯"
 cover: https://cdn.freezing.cool/images/20260214231918019.jpg
 date: 2026-02-14T22:31
-update: 2026-02-15T00:44
+update: 2026-02-15T11:44
 douban: https://book.douban.com/subject/35989392/
 dg-publish: true
 maturity: tree
@@ -17,7 +17,7 @@ maturity: tree
 >出品方: [理想国](https://book.douban.com/producers/4)  
 >原作名: Flowers for Algernon  
 >译者: [陈澄和](https://book.douban.com/search/%E9%99%88%E6%BE%84%E5%92%8C)  
->ISBN: 9787555913726
+>ISBN: 9787555913726  
 >Douban Reading: https://book.douban.com/subject/35989392/
 
 >[!quote] 找到我完整存在的意义
